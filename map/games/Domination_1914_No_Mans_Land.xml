@@ -7175,8 +7175,6 @@
     <property name="Unit Placement Restrictions" value="true" editable="false">
       <boolean/>
     </property>
-      <boolean/>
-    </property>
     <property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="false">
       <boolean/>
     </property>
