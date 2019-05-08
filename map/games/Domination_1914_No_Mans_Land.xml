@@ -7326,7 +7326,7 @@
 	<td>Supportable</td>
 	</tr>
 	
-	<tr bgcolor="BDBDBD">
+	<tr>
 	<td>Cavalry</td>
 	<td>1</td>
 	<td>1</td>
@@ -7337,7 +7337,7 @@
 	</tr>
 	
 	<tr bgcolor="BDBDBD">
-	<td>Field_Artillery</td>
+	<td>Field_gun</td>
 	<td>2</td>
 	<td>2</td>
 	<td>1</td>
@@ -7346,7 +7346,8 @@
 	<td>Supports</td>
 	</tr>
 	
-	<td>Heavy_Gun</td>
+	<tr>
+	<td>Heavy_gun</td>
 	<td>2</td>
 	<td>4</td>
 	<td>1</td>
@@ -7364,7 +7365,8 @@
 	<td>3</td>
 	<td>Arabia Only</td>
 	</tr>
-	
+
+ 	<tr>
 	<td>Gas</td>
 	<td>4</td>
 	<td>0</td>
@@ -7383,7 +7385,8 @@
 	<td>N/A</td>
 	<td>2 hit</td>
 	</tr>	
-	
+
+ 	<tr>
 	<td>AAGun</td>
 	<td>0</td>
 	<td>1</td>
@@ -7403,7 +7406,7 @@
 	<td>Allows units to be placed, can be strategically bombed</td>
 	</tr>
 	
-	<tr bgcolor="BDBDBD">
+	<tr>
 	<td>Conscript</td>
 	<td>0</td>
 	<td>1</td>
@@ -7423,7 +7426,7 @@
 	<td>Ottawa, Nova Scotia, Sydney, Tunis, Tobruk only, supportable</td>
 	</tr>
 		
-	<tr bgcolor="BDBDBD">
+	<tr>
 	<td>Stormtruppen</td>
 	<td>2</td>
 	<td>2</td>
@@ -7481,7 +7484,7 @@
 	<td>Zeppelin</td>
 	<td>1</td>
 	<td>2</td>
-	<td>6</td>
+	<td>5</td>
 	<td>16</td>
 	<td>Strategic Bomber, Supports</td>
 	</tr>
@@ -7518,7 +7521,8 @@
 	<th>cost</th>
 	<th>special abilities</th>
 	</tr>
-	
+
+ 	<tr bgcolor="BDBDBD">
 	<td>Transport</td>
 	<td>0</td>
 	<td>0</td>
@@ -7527,7 +7531,7 @@
 	<td>5 Transport capacity, cannot defend and cannot be taken as casualty. </td>
 	</tr>
 	
-	<tr bgcolor="BDBDBD">
+	<tr>
 	<td>Submarine</td>
 	<td>2</td>
 	<td>1</td>
@@ -7536,6 +7540,7 @@
 	<td>Can submerge, first strike</td>
 	</tr>
 
+	<tr bgcolor="BDBDBD">
 	<td>Destroyer</td>
 	<td>2</td>
 	<td>2</td>
@@ -7544,7 +7549,7 @@
 	<td>anti-submarine</td>
 	</tr>
 	
-	<tr bgcolor="BDBDBD">
+	<tr>
 	<td>Cruiser</td>
 	<td>3</td>
 	<td>3</td>
@@ -7552,7 +7557,8 @@
 	<td>10</td>
 	<td></td>
 	</tr>
-	
+
+ 	<tr bgcolor="BDBDBD">
 	<td>Carrier</td>
 	<td>2</td>
 	<td>3</td>
@@ -7561,6 +7567,7 @@
 	<td>attainable through tech</td>
 	</tr>
 
+	<tr>
 	<td>Battlecruiser</td>
 	<td>4</td>
 	<td>4</td>
@@ -7676,7 +7683,7 @@
 	</tr>
 
 	<th>Land</th>
-	<th>Railway Guns/th>
+	<th>Railway Guns</th>
 	<th>Heavy Artillery defends at 5</th>
 	</tr>
 
