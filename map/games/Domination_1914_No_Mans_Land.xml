@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Domination 1914 No Man's Land" version="1.0"/>
+  <info name="Domination 1914 No Man's Land" version="1.1"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.5"/>
   <diceSides value="6"/>
@@ -972,6 +972,7 @@
     <connection t1="Alberta" t2="Saskatchewan"/>
     <connection t1="Alberta" t2="Montana"/>
     <connection t1="Alberta" t2="Dakota"/>
+    <connection t1="Alberta" t2="British Colombia"/>
     <connection t1="Bangladesh" t2="Burma"/>
     <connection t1="Bangladesh" t2="Calcutta"/>
     <connection t1="Basutoland" t2="Cape Colony"/>
@@ -992,6 +993,13 @@
     <connection t1="British East Africa" t2="Ethiopia"/>
     <connection t1="British East Africa" t2="Italian Somaliland"/>
     <connection t1="British East Africa" t2="Sea Zone 76 Indian Ocean"/>
+    <connection t1="British Guiana" t2="Venezuela"/>
+    <connection t1="British Guiana" t2="Amazon"/>
+    <connection t1="British Guiana" t2="Dutch Guiana"/>
+    <connection t1="British Guiana" t2="Sea Zone 47 Mid Atlantic"/>
+    <connection t1="British Honduras" t2="Yucatan"/>
+    <connection t1="British Honduras" t2="Guatemala"/>
+    <connection t1="British Honduras" t2="Sea Zone 40 Caribbean Sea"/>
     <connection t1="British Somaliland" t2="Italian Somaliland"/>
     <connection t1="British Somaliland" t2="Ethiopia"/>
     <connection t1="British Somaliland" t2="French Somaliland"/>
@@ -1035,6 +1043,8 @@
     <connection t1="Malaya" t2="Singapore"/>
     <connection t1="Manitoba" t2="Saskatchewan"/>
     <connection t1="Manitoba" t2="Ontario"/>
+    <connection t1="Manitoba" t2="Nunavut"/>
+    <connection t1="Manitoba" t2="Missouri"/>
     <connection t1="Nagpur" t2="Oudh"/>
     <connection t1="Nagpur" t2="Rajputana"/>
     <connection t1="Nagpur" t2="Gujarat"/>
@@ -1330,6 +1340,7 @@
     <connection t1="Sea Zone 1 Hudson Bay" t2="Nunavut"/>
     <connection t1="Sea Zone 1 Hudson Bay" t2="Ontario"/>
     <connection t1="Sea Zone 1 Hudson Bay" t2="Quebec"/>
+    <connection t1="Sea Zone 1 Hudson Bay" t2="Manitoba"/>
     <connection t1="Sea Zone 2 Baffin Bay" t2="Sea Zone 3 Denmark Strait"/>
     <connection t1="Sea Zone 2 Baffin Bay" t2="Sea Zone 20 Labrador Sea"/>
     <connection t1="Sea Zone 2 Baffin Bay" t2="Baffin Island"/>
@@ -1362,6 +1373,7 @@
     <connection t1="Sea Zone 9 Gulf of Bothnia" t2="St. Petersburg"/>
     <connection t1="Sea Zone 9 Gulf of Bothnia" t2="Estonia"/>
     <connection t1="Sea Zone 9 Gulf of Bothnia" t2="Latvia"/>
+    <connection t1="Sea Zone 9 Gulf of Bothnia" t2="Pskov"/>
     <connection t1="Sea Zone 10 Baltic Sea" t2="Sea Zone 11 Baltic Sea"/>
     <connection t1="Sea Zone 10 Baltic Sea" t2="Sea Zone 12 Baltic Sea"/>
     <connection t1="Sea Zone 10 Baltic Sea" t2="Sweden"/>
@@ -2136,7 +2148,6 @@
     <connection t1="Sea Zone 151 Bering Sea" t2="Sea Zone 155 Bering Sea"/>
     <connection t1="Sea Zone 151 Bering Sea" t2="Koryak"/>
     <connection t1="Sea Zone 151 Bering Sea" t2="Chukotka"/>
-    <connection t1="Sea Zone 151 Bering Sea" t2="Sakhe"/>
     <connection t1="Sea Zone 151 Bering Sea" t2="Aleutian Islands"/>
     <connection t1="Sea Zone 152 Pacific Ocean" t2="Sea Zone 153 Pacific Ocean"/>
     <connection t1="Sea Zone 152 Pacific Ocean" t2="Sea Zone 154 Gulf of Alaska"/>
@@ -2228,6 +2239,12 @@
     <connection t1="Colombia" t2="Amazon"/>
     <connection t1="Colombia" t2="Venezuela"/>
     <connection t1="Costa Rica" t2="Panama"/>
+    <connection t1="Dutch Guiana" t2="Amazon"/>
+    <connection t1="Dutch Guiana" t2="French Guiana"/>
+    <connection t1="Dutch Guiana" t2="Sea Zone 47 Mid Atlantic"/>
+    <connection t1="Dutch New Guinea" t2="German New Guinea"/>
+    <connection t1="Dutch New Guinea" t2="Papua"/>
+    <connection t1="Dutch New Guinea" t2="Sea Zone 123 Banda Sea"/>
     <connection t1="Ecuador" t2="Amazon"/>
     <connection t1="Ecuador" t2="Peru"/>
     <connection t1="Extremadura" t2="Toledo"/>
@@ -2357,6 +2374,18 @@
     <connection t1="Peru" t2="Bolivia"/>
     <connection t1="Peru" t2="La Paz"/>
     <connection t1="Peru" t2="Chile"/>
+    <connection t1="Portugese East Africa" t2="Natal"/>
+    <connection t1="Portugese East Africa" t2="Transvaal"/>
+    <connection t1="Portugese East Africa" t2="Southern Rhodesia"/>
+    <connection t1="Portugese East Africa" t2="Northern Rhodesia"/>
+    <connection t1="Portugese East Africa" t2="Nyasaland"/>
+    <connection t1="Portugese East Africa" t2="German East Africa"/>
+    <connection t1="Portugese East Africa" t2="Sea Zone 76 Indian Ocean"/>
+    <connection t1="Portugese East Africa" t2="Sea Zone 92 Mozambique Channel"/>
+    <connection t1="Portugese East Africa" t2="Lake Nyasa"/>
+    <connection t1="Portugese Guinea" t2="Senegal"/>
+    <connection t1="Portugese Guinea" t2="French Guinea"/>
+    <connection t1="Portugese Guinea" t2="Sea Zone 50 Mid Atlantic"/>
     <connection t1="Puerto Vallarta" t2="Mexico City"/>
     <connection t1="Puerto Vallarta" t2="Guadalahara"/>
     <connection t1="Qinghai" t2="Sinkiang"/>
@@ -3988,6 +4017,9 @@
     <attachment name="territoryAttachment" attachTo="British Guiana" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
     </attachment>
+    <attachment name="territoryAttachment" attachTo="British Honduras" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
     <attachment name="territoryAttachment" attachTo="British Somaliland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
     </attachment>
@@ -4613,9 +4645,6 @@
     <attachment name="territoryAttachment" attachTo="Brasilia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="British Honduras" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="0"/>
-    </attachment>
     <attachment name="territoryAttachment" attachTo="Buenos Aires" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
     </attachment>
@@ -4683,10 +4712,10 @@
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Dutch Guiana" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="0"/>
+      <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Dutch New Guinea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="0"/>
+      <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="East Timor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -4887,7 +4916,7 @@
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Portugese Guinea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="0"/>
+      <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Puerto Rico" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -5035,6 +5064,7 @@
     </attachment>
     <attachment name="conditionAttachmentpropagandaG" attachTo="Germany" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="propaganda" count="1"/>
+      <option name="directOwnershipTerritories" value="Berlin" count="1"/>
     </attachment>
     <attachment name="conditionAttachmentfleetactionG" attachTo="Germany" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="fleetaction" count="1"/>
@@ -5047,6 +5077,7 @@
     </attachment>
     <attachment name="conditionAttachmentpropagandaF" attachTo="France" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="propaganda" count="1"/>
+      <option name="directOwnershipTerritories" value="Paris" count="1"/>
     </attachment>
     <attachment name="conditionAttachmentfleetactionF" attachTo="France" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="fleetaction" count="1"/>
@@ -5059,6 +5090,7 @@
     </attachment>
     <attachment name="conditionAttachmentpropagandaS" attachTo="Serbia" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="propaganda" count="1"/>
+      <option name="directOwnershipTerritories" value="Greece" count="1"/>
     </attachment>
     <attachment name="conditionAttachmentfleetactionS" attachTo="Serbia" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="fleetaction" count="1"/>
@@ -5071,6 +5103,7 @@
     </attachment>
     <attachment name="conditionAttachmentpropagandaA" attachTo="Austria" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="propaganda" count="1"/>
+      <option name="directOwnershipTerritories" value="Vienna" count="1"/>
     </attachment>
     <attachment name="conditionAttachmentfleetactionA" attachTo="Austria" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="fleetaction" count="1"/>
@@ -5083,6 +5116,7 @@
     </attachment>
     <attachment name="conditionAttachmentpropagandaI" attachTo="Italy" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="propaganda" count="1"/>
+      <option name="directOwnershipTerritories" value="Rome" count="1"/>
     </attachment>
     <attachment name="conditionAttachmentfleetactionI" attachTo="Italy" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="fleetaction" count="1"/>
@@ -5095,6 +5129,7 @@
     </attachment>
     <attachment name="conditionAttachmentpropagandaO" attachTo="Turkey" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="propaganda" count="1"/>
+      <option name="directOwnershipTerritories" value="Constantinople" count="1"/>
     </attachment>
     <attachment name="conditionAttachmentfleetactionO" attachTo="Turkey" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="fleetaction" count="1"/>
@@ -5107,6 +5142,7 @@
     </attachment>
     <attachment name="conditionAttachmentpropagandaB" attachTo="Britain" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="propaganda" count="1"/>
+      <option name="directOwnershipTerritories" value="London" count="1"/>
     </attachment>
     <attachment name="conditionAttachmentfleetactionB" attachTo="Britain" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="fleetaction" count="1"/>
@@ -5119,6 +5155,7 @@
     </attachment>
     <attachment name="conditionAttachmentpropagandaR" attachTo="Russia" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="propaganda" count="1"/>
+      <option name="directOwnershipTerritories" value="St. Petersburg" count="1"/>
     </attachment>
     <attachment name="conditionAttachmentfleetactionR" attachTo="Russia" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="fleetaction" count="1"/>
@@ -5131,6 +5168,7 @@
     </attachment>
     <attachment name="conditionAttachmentpropagandaC" attachTo="Communists" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="propaganda" count="1"/>
+      <option name="directOwnershipTerritories" value="Yakutsk" count="1"/>
     </attachment>
     <attachment name="conditionAttachmentfleetactionC" attachTo="Communists" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="fleetaction" count="1"/>
@@ -5143,6 +5181,7 @@
     </attachment>
     <attachment name="conditionAttachmentpropagandaU" attachTo="USA" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="propaganda" count="1"/>
+      <option name="directOwnershipTerritories" value="Washington D.C." count="1"/>
     </attachment>
     <attachment name="conditionAttachmentfleetactionU" attachTo="USA" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="techs" value="fleetaction" count="1"/>
@@ -5752,131 +5791,111 @@
       <option name="trigger" value="conditionAttachmentpropagandaG"/>
       <option name="when" value="after:GermanyTechActivation"/>
       <option name="placement" value="Berlin:infantry" count="3"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentFranceP" attachTo="France" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentpropagandaF"/>
       <option name="when" value="after:FranceTechActivation"/>
       <option name="placement" value="Paris:infantry" count="3"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentSerbiaP" attachTo="Serbia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentpropagandaS"/>
       <option name="when" value="after:SerbiaTechActivation"/>
       <option name="placement" value="Greece:infantry" count="3"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentAustriaP" attachTo="Austria" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentpropagandaA"/>
       <option name="when" value="after:AustriaTechActivation"/>
       <option name="placement" value="Vienna:infantry" count="3"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentItalyP" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentpropagandaI"/>
       <option name="when" value="after:ItalyTechActivation"/>
       <option name="placement" value="Rome:infantry" count="3"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentTurkeyP" attachTo="Turkey" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentpropagandaO"/>
       <option name="when" value="after:TurkeyTechActivation"/>
       <option name="placement" value="Constantinople:infantry" count="3"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentBritainP" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentpropagandaB"/>
       <option name="when" value="after:BritainTechActivation"/>
       <option name="placement" value="London:infantry" count="3"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentRussiaP" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentpropagandaR"/>
       <option name="when" value="after:RussiaTechActivation"/>
       <option name="placement" value="St. Petersburg:infantry" count="3"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentCommunistsP" attachTo="Communists" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentpropagandaC"/>
       <option name="when" value="after:CommunistsTechActivation"/>
       <option name="placement" value="Yakutsk:infantry" count="3"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentUSAP" attachTo="USA" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentpropagandaU"/>
       <option name="when" value="after:USATechActivation"/>
       <option name="placement" value="Washington D.C.:infantry" count="3"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentGermanyS" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentscienceG"/>
       <option name="resource" value="techTokens"/>
       <option name="resourceCount" value="1"/>
       <option name="when" value="after:GermanyTechActivation"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentFranceS" attachTo="France" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentscienceF"/>
       <option name="resource" value="techTokens"/>
       <option name="resourceCount" value="1"/>
       <option name="when" value="after:FranceTechActivation"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentSerbiaS" attachTo="Serbia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentscienceS"/>
       <option name="resource" value="techTokens"/>
       <option name="resourceCount" value="1"/>
       <option name="when" value="after:SerbiaTechActivation"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentAustriaS" attachTo="Austria" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentscienceA"/>
       <option name="resource" value="techTokens"/>
       <option name="resourceCount" value="1"/>
       <option name="when" value="after:AustriaTechActivation"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmenItalyS" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentscienceI"/>
       <option name="resource" value="techTokens"/>
       <option name="resourceCount" value="1"/>
       <option name="when" value="after:ItalyTechActivation"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentTurkeyS" attachTo="Turkey" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentscienceO"/>
       <option name="resource" value="techTokens"/>
       <option name="resourceCount" value="1"/>
       <option name="when" value="after:TurkeyTechActivation"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentBritainS" attachTo="Britain" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentscienceB"/>
       <option name="resource" value="techTokens"/>
       <option name="resourceCount" value="1"/>
       <option name="when" value="after:BritainTechActivation"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentRussiaS" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentscienceR"/>
       <option name="resource" value="techTokens"/>
       <option name="resourceCount" value="1"/>
       <option name="when" value="after:RussiaTechActivation"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentCommunistsS" attachTo="Communists" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentscienceC"/>
       <option name="resource" value="techTokens"/>
       <option name="resourceCount" value="1"/>
       <option name="when" value="after:CommunistsTechActivation"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <attachment name="triggerAttachmentUSAS" attachTo="USA" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentscienceU"/>
       <option name="resource" value="techTokens"/>
       <option name="resourceCount" value="1"/>
       <option name="when" value="after:USATechActivation"/>
-      <option name="uses" value="1000"/>
     </attachment>
     <!-- Tech Ability Attachment -->
     <attachment name="techAbilityAttachment" attachTo="victoryBonds" javaClass="games.strategy.triplea.attachments.TechAbilityAttachment" type="technology">
@@ -5884,7 +5903,7 @@
       <option name="warBondDiceNumber" value="2"/>
     </attachment>
     <attachment name="techAbilityAttachment" attachTo="industry" javaClass="games.strategy.triplea.attachments.TechAbilityAttachment" type="technology">
-      <option name="productionBonus" value="3:Factory"/>
+      <option name="productionBonus" value="2:Factory"/>
       <option name="minimumTerritoryValueForProductionBonus" value="2"/>
     </attachment>
     <attachment name="techAbilityAttachment" attachTo="subwarfare" javaClass="games.strategy.triplea.attachments.TechAbilityAttachment" type="technology">
@@ -5900,9 +5919,9 @@
       <option name="attackBonus" value="1:battleship"/>
     </attachment>
     <attachment name="techAbilityAttachment" attachTo="merchantmarine" javaClass="games.strategy.triplea.attachments.TechAbilityAttachment" type="technology">
-      <option name="movementBonus" value="2:transport"/>
-      <option name="movementBonus" value="2:destroyer"/>
-      <option name="movementBonus" value="2:cruiser"/>
+      <option name="movementBonus" value="1:battlecruiser"/>
+      <option name="movementBonus" value="1:destroyer"/>
+      <option name="movementBonus" value="1:cruiser"/>
     </attachment>
     <attachment name="techAbilityAttachment" attachTo="creepingBarage" javaClass="games.strategy.triplea.attachments.TechAbilityAttachment" type="technology">
       <option name="attackBonus" value="1:field_gun"/>
@@ -6082,6 +6101,7 @@
       <territoryOwner territory="British Columbia" owner="Britain"/>
       <territoryOwner territory="British East Africa" owner="Britain"/>
       <territoryOwner territory="British Guiana" owner="Britain"/>
+      <territoryOwner territory="British Honduras" owner="Britain"/>
       <territoryOwner territory="British Somaliland" owner="Britain"/>
       <territoryOwner territory="Burma" owner="Britain"/>
       <territoryOwner territory="Cairo-Suez" owner="Britain"/>
@@ -6685,6 +6705,7 @@
       <unitPlacement unitType="battlecruiser" territory="Sea Zone 12 Baltic Sea" quantity="2" owner="Germany"/>
       <unitPlacement unitType="battleship" territory="Sea Zone 12 Baltic Sea" quantity="1" owner="Germany"/>
       <unitPlacement unitType="cruiser" territory="Sea Zone 12 Baltic Sea" quantity="2" owner="Germany"/>
+      <unitPlacement unitType="submarine" territory="Sea Zone 12 Baltic Sea" quantity="1" owner="Germany"/>
       <unitPlacement unitType="battlecruiser" territory="Sea Zone 16 North Sea" quantity="2" owner="Britain"/>
       <unitPlacement unitType="cruiser" territory="Sea Zone 16 North Sea" quantity="2" owner="Britain"/>
       <unitPlacement unitType="transport" territory="Sea Zone 16 North Sea" quantity="1" owner="Britain"/>
@@ -7207,11 +7228,7 @@
 <br><span style="font-size:280%;color:000000;"></span><b><span style="font-size:280%;color:660000;">Domination 1914 No Man's Land</span></b><span style="font-size:280%;color:000000;"></span>
 <br>
 
-
-<br><span style="font-size:120%;000000"colspan="2"><b>Version 1.0</b></span></th>
-
-
-<br><span style="font-size:70%;000000">Upgraded? Check the version history for changes!</span>
+<br><span style="font-size:120%;000000"colspan="2"><b>Version 1.1</b></span></th>
 <br>
 <br>
 <br>
@@ -7221,10 +7238,11 @@
 <b>Titantic armies never seen before muster for battle. </b> <br>
 <b>Colonial forces of the great powers skirmish around the world.</b> <br>
 <b>Soldiers of all sides are told they will be home for Christmas</b> <br>
-<b>No one suspects they will battle for years over a few miles of no mans land.</b> <br>
+<b>No one suspects they will battle for years over a few miles of no mans land.</b>
 <br>
 <br>
 <br><span style="font-size:120%"><b>Modded by Imbaked</b></span>
+<br><span style="font-size:120%"><b>Updated by Redrum</b></span>
 <br><span style="font-size:110%"><b>Game Design by TripleK and Surtur</b></span>
 <br><span style="font-size:110%">Engine Support by Veqryn</span>
 <br>Relief Tiles by Siege
@@ -7413,7 +7431,7 @@
 	<td>1</td>
 	<td>2</td>
 	<td>2</td>
-	<td>Russia and Communists Only</td>
+	<td>Russia and Communists only</td>
 	</tr>
 		
 	<tr bgcolor="BDBDBD">
@@ -7423,7 +7441,7 @@
 	<td>1</td>
 	<td>3</td>
 	<td>2</td>
-	<td>Ottawa, Nova Scotia, Sydney, Tunis, Tobruk only, supportable</td>
+	<td>Nova Scotia, Ottawa-Montreal, Sydney-Canberra, Algiers, and Tobruk only, supportable</td>
 	</tr>
 		
 	<tr>
@@ -7624,7 +7642,7 @@
 	
 	<th>Industry</th>
 	<th>Industry</th>
-	<th>place 3 more units in territories worth 2 or more</th>
+	<th>Place 2 more units in territories worth 2 or more</th>
 	</tr>	
 
 	<th>Industry</th>
@@ -7664,12 +7682,12 @@
 
 	<th>Naval</th>
 	<th>Fleet Action</th>
-	<th>Battleships and Battlecruisers Attack at 5</th>
+	<th>Battlecruisers and Battleships attack at 5</th>
 	</tr>
 
 	<th>Naval</th>
 	<th>Merchant Marine</th>
-	<th>Tranports, Destroyers and Cruisers move at 4</th>
+	<th>Destroyers, Cruisers, and Battlecruisers move at 3</th>
 	</tr>
 
 	<th>Naval</th>
@@ -7724,10 +7742,7 @@
 <br> # Siege for relief tiles
 <br> # Cernel for flags and unit support
 <br> # RolfLarsson for maintaining the map depot and debugging
-<br> # Lalapalooza for playtesting
-<br> # Bdenn for playtesting
-<br> # Guage for playtesting
-<br> # Dany for playtesting
+<br> # Lalapalooza, Bdenn, Guage, Dany for playtesting
 <br>
 <br>==========================================================
 <br>
