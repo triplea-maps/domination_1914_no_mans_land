@@ -972,7 +972,7 @@
     <connection t1="Alberta" t2="Saskatchewan"/>
     <connection t1="Alberta" t2="Montana"/>
     <connection t1="Alberta" t2="Dakota"/>
-    <connection t1="Alberta" t2="British Colombia"/>
+    <connection t1="Alberta" t2="British Columbia"/>
     <connection t1="Bangladesh" t2="Burma"/>
     <connection t1="Bangladesh" t2="Calcutta"/>
     <connection t1="Basutoland" t2="Cape Colony"/>
@@ -7224,6 +7224,7 @@
 
 <div style="text-align: center;">
 <br>
+<img src="mapScreenshot.png"/>
   	
 <br><span style="font-size:280%;color:000000;"></span><b><span style="font-size:280%;color:660000;">Domination 1914 No Man's Land</span></b><span style="font-size:280%;color:000000;"></span>
 <br>
@@ -7231,16 +7232,13 @@
 <br><span style="font-size:120%;000000"colspan="2"><b>Version 1.1</b></span></th>
 <br>
 <br>
-<br>
 
-<b>Fall 1914. With the death of the Arch Duke Franz Ferdinand, Europe is plunged into war. </b> 
-<br>
+<b>Fall 1914. With the death of the Arch Duke Franz Ferdinand, Europe is plunged into war. </b> <br>
 <b>Titantic armies never seen before muster for battle. </b> <br>
 <b>Colonial forces of the great powers skirmish around the world.</b> <br>
 <b>Soldiers of all sides are told they will be home for Christmas</b> <br>
-<b>No one suspects they will battle for years over a few miles of no mans land.</b>
-<br>
-<br>
+<b>No one suspects they will battle for years over a few miles of no mans land.</b> <br>
+
 <br><span style="font-size:120%"><b>Modded by Imbaked</b></span>
 <br><span style="font-size:120%"><b>Updated by Redrum</b></span>
 <br><span style="font-size:110%"><b>Game Design by TripleK and Surtur</b></span>
@@ -7248,30 +7246,21 @@
 <br>Relief Tiles by Siege
 <br>
 
-<br>
 <div style="text-align: center;">
 <br>==========================================================
 <br><span style="font-size:200%"><b>Features</b></span>
 <br>==========================================================
 <br>
-<br>
 
 <br> The ruleset of the "AA-50 rules" (ww2v3) of a well known board game is used as a basis. Deviations, extensions and exceptions from these are all listed in these Game Notes.<br>
-
 <br> Submarine Rules - Submarines may retreat before the battle unless a destroyer is present. Air cannot hit subs unless destroyer is present. Subs do not block.<br>
-
 <br> Transport Rules - Transports do not participate in battles and die if attacked and undefended. Cannot be taken as casualties. Transports do not block.<br>
-
 <br> Bombard Rules - Bombard is restrictd by the number of units landing. Bombard casualties DO return fire<br>
-
 <br> Trench Rules - 3 trenches per territory per turn can be placed. There is no limit to how many you can buy. There is no overall limit of trenches in a territory.<br>
-
 <br> Gas Rules - Suicides after one round of attack, does not fire and cannot be taken as casualties on defense.<br>
 <br> Trenches cannot be taken as casualties from hits caused by Gas.<br>
 <br> Casualties from Gas do not return fire.<br>
-
-<br> Communists are set to neutral towards Germany, Austria and Turkey while still being on the same side. This means they cannot co-occupy a territory and do not liberate territory for the other.
-
+<br> Communists are set to neutral towards Germany, Austria and Turkey while still being on the same side. This means they cannot co-occupy a territory and do not liberate territory for the other.<br>
 <br>
 
 <table border="1"bgcolor="ABABAB">
@@ -7614,8 +7603,6 @@
 </table>
 <br>
 
-
-<br>
 <div style="text-align: center;">
 <br>==========================================================
 <br><span style="font-size:200%"><b>Technology</b></span>
@@ -7727,8 +7714,6 @@
 </table>
 <br>
 
-
-<br>
 <div style="text-align: center;">
 <br>==========================================================
 <br><span style="font-size:200%"><b>Credits</b></span>
