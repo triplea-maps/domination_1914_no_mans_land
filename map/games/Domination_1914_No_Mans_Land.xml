@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Domination 1914 No Man's Land" version="1.1"/>
+  <info name="Domination 1914 No Man's Land" version="1.2"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.5"/>
   <diceSides value="6"/>
@@ -1359,6 +1359,7 @@
     <connection t1="Sea Zone 5 Arctic Ocean" t2="Sea Zone 18 North Atlantic"/>
     <connection t1="Sea Zone 6 Norwegian Sea" t2="Sea Zone 7 Norwegian Sea"/>
     <connection t1="Sea Zone 6 Norwegian Sea" t2="Sea Zone 17 Norwegian Sea"/>
+    <connection t1="Sea Zone 7 Norwegian Sea" t2="Sea Zone 8 Barents Sea"/>
     <connection t1="Sea Zone 7 Norwegian Sea" t2="Sea Zone 17 Norwegian Sea"/>
     <connection t1="Sea Zone 7 Norwegian Sea" t2="Norway"/>
     <connection t1="Sea Zone 8 Barents Sea" t2="Norway"/>
@@ -4784,7 +4785,7 @@
       <option name="production" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Hokkaido" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="6"/>
+      <option name="production" value="4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Holland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -4997,7 +4998,7 @@
       <option name="production" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Tohoku" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="6"/>
+      <option name="production" value="4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Tokyo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="12"/>
@@ -5040,11 +5041,11 @@
     </attachment>
     <attachment name="canalAttachment2" attachTo="Sea Zone 67 Black Sea" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Bosporus"/>
-      <option name="landTerritories" value="Dardanelles"/>
+      <option name="landTerritories" value="Constantinople:Dardanelles"/>
     </attachment>
     <attachment name="canalAttachment2" attachTo="Sea Zone 68 Aegean Sea" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Bosporus"/>
-      <option name="landTerritories" value="Dardanelles"/>
+      <option name="landTerritories" value="Constantinople:Dardanelles"/>
     </attachment>
     <attachment name="canalAttachment3" attachTo="Sea Zone 70 Eastern Mediterranean" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Suez Canal"/>
@@ -5790,7 +5791,7 @@
     <attachment name="triggerAttachmentGermanyP" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentpropagandaG"/>
       <option name="when" value="after:GermanyTechActivation"/>
-      <option name="placement" value="Berlin:infantry" count="3"/>
+      <option name="placement" value="Berlin:stormtruppen" count="3"/>
     </attachment>
     <attachment name="triggerAttachmentFranceP" attachTo="France" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentpropagandaF"/>
@@ -7644,7 +7645,7 @@
 
 	<th>Industry</th>
 	<th>Propaganda</th>
-	<th>3 free Infantry per turn on your capital</th>
+	<th>3 free Infantry (Stormtruppen) per turn on your capital</th>
 	</tr>
 
 	<th>Industry</th>
