@@ -3030,238 +3030,292 @@
             <techname name="armour"/>
         </technologies>
         <playerTech player="Germany">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
+            <category name="Economy">
+                <tech name="victoryBonds"/>                
                 <tech name="workingWomen"/>
                 <tech name="science"/>
-                <tech name="propaganda"/>
+            </category>
+            <category name="Innovation">               
+                <tech name="industry"/>
+                <tech name="armour"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
+            <category name="Land Offense">
                 <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
                 <tech name="mobileWarfare"/>
-                <tech name="armour"/>
+                <tech name="mustardGas"/>
             </category>
+            <category name="Land Defense">                
+                <tech name="railwayGuns"/>
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>                               
+            </category>
+            <category name="Screens and Subs">               
+                <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="fleetaction"/>               
+                <tech name="dockyards"/>
+                <tech name="aircraftCarrier"/>
+            </category>                     
         </playerTech>
         <playerTech player="France">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
+            <category name="Economy">
+                <tech name="victoryBonds"/>                
                 <tech name="workingWomen"/>
                 <tech name="science"/>
-                <tech name="propaganda"/>
+            </category>
+            <category name="Innovation">               
+                <tech name="industry"/>
+                <tech name="armour"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
+            <category name="Land Offense">
                 <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
                 <tech name="mobileWarfare"/>
-                <tech name="armour"/>
+                <tech name="mustardGas"/>
             </category>
+            <category name="Land Defense">                
+                <tech name="railwayGuns"/>
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>                               
+            </category>
+            <category name="Screens and Subs">               
+                <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="fleetaction"/>               
+                <tech name="dockyards"/>
+                <tech name="aircraftCarrier"/>
+            </category> 
         </playerTech>
         <playerTech player="Austria">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
+            <category name="Economy">
+                <tech name="victoryBonds"/>                
                 <tech name="workingWomen"/>
                 <tech name="science"/>
-                <tech name="propaganda"/>
+            </category>
+            <category name="Innovation">               
+                <tech name="industry"/>
+                <tech name="armour"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
+            <category name="Land Offense">
                 <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
                 <tech name="mobileWarfare"/>
-                <tech name="armour"/>
+                <tech name="mustardGas"/>
             </category>
+            <category name="Land Defense">                
+                <tech name="railwayGuns"/>
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>                               
+            </category>
+            <category name="Screens and Subs">               
+                <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="fleetaction"/>               
+                <tech name="dockyards"/>
+                <tech name="aircraftCarrier"/>
+            </category> 
         </playerTech>
         <playerTech player="Italy">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
+            <category name="Economy">
+                <tech name="victoryBonds"/>                
                 <tech name="workingWomen"/>
                 <tech name="science"/>
-                <tech name="propaganda"/>
+            </category>
+            <category name="Innovation">               
+                <tech name="industry"/>
+                <tech name="armour"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
+            <category name="Land Offense">
                 <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
                 <tech name="mobileWarfare"/>
-                <tech name="armour"/>
+                <tech name="mustardGas"/>
             </category>
+            <category name="Land Defense">                
+                <tech name="railwayGuns"/>
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>                               
+            </category>
+            <category name="Screens and Subs">               
+                <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="fleetaction"/>               
+                <tech name="dockyards"/>
+                <tech name="aircraftCarrier"/>
+            </category> 
         </playerTech>
         <playerTech player="Turkey">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
+            <category name="Economy">
+                <tech name="victoryBonds"/>                
                 <tech name="workingWomen"/>
                 <tech name="science"/>
-                <tech name="propaganda"/>
+            </category>
+            <category name="Innovation">               
+                <tech name="industry"/>
+                <tech name="armour"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
+            <category name="Land Offense">
                 <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
                 <tech name="mobileWarfare"/>
-                <tech name="armour"/>
+                <tech name="mustardGas"/>
             </category>
+            <category name="Land Defense">                
+                <tech name="railwayGuns"/>
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>                               
+            </category>
+            <category name="Screens and Subs">               
+                <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="fleetaction"/>               
+                <tech name="dockyards"/>
+                <tech name="aircraftCarrier"/>
+            </category> 
         </playerTech>
         <playerTech player="Britain">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
+            <category name="Economy">
+                <tech name="victoryBonds"/>                
                 <tech name="workingWomen"/>
                 <tech name="science"/>
-                <tech name="propaganda"/>
+            </category>
+            <category name="Innovation">               
+                <tech name="industry"/>
+                <tech name="armour"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
+            <category name="Land Offense">
                 <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
                 <tech name="mobileWarfare"/>
-                <tech name="armour"/>
+                <tech name="mustardGas"/>
             </category>
+            <category name="Land Defense">                
+                <tech name="railwayGuns"/>
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>                               
+            </category>
+            <category name="Screens and Subs">               
+                <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="fleetaction"/>               
+                <tech name="dockyards"/>
+                <tech name="aircraftCarrier"/>
+            </category> 
         </playerTech>
         <playerTech player="Russia">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
+            <category name="Economy">
+                <tech name="victoryBonds"/>                
                 <tech name="workingWomen"/>
                 <tech name="science"/>
-                <tech name="propaganda"/>
+            </category>
+            <category name="Innovation">               
+                <tech name="industry"/>
+                <tech name="armour"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
+            <category name="Land Offense">
                 <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
                 <tech name="mobileWarfare"/>
-                <tech name="armour"/>
+                <tech name="mustardGas"/>
             </category>
+            <category name="Land Defense">                
+                <tech name="railwayGuns"/>
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>                               
+            </category>
+            <category name="Screens and Subs">               
+                <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="fleetaction"/>               
+                <tech name="dockyards"/>
+                <tech name="aircraftCarrier"/>
+            </category> 
         </playerTech>
         <playerTech player="Communists">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
+            <category name="Economy">
+                <tech name="victoryBonds"/>                
                 <tech name="workingWomen"/>
                 <tech name="science"/>
-                <tech name="propaganda"/>
+            </category>
+            <category name="Innovation">               
+                <tech name="industry"/>
+                <tech name="armour"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
+            <category name="Land Offense">
                 <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
                 <tech name="mobileWarfare"/>
-                <tech name="armour"/>
+                <tech name="mustardGas"/>
             </category>
+            <category name="Land Defense">                
+                <tech name="railwayGuns"/>
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>                               
+            </category>
+            <category name="Screens and Subs">               
+                <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="fleetaction"/>               
+                <tech name="dockyards"/>
+                <tech name="aircraftCarrier"/>
+            </category> 
         </playerTech>
         <playerTech player="USA">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
+            <category name="Economy">
+                <tech name="victoryBonds"/>                
                 <tech name="workingWomen"/>
                 <tech name="science"/>
-                <tech name="propaganda"/>
+            </category>
+            <category name="Innovation">               
+                <tech name="industry"/>
+                <tech name="armour"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
+            <category name="Land Offense">
                 <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
                 <tech name="mobileWarfare"/>
-                <tech name="armour"/>
+                <tech name="mustardGas"/>
             </category>
+            <category name="Land Defense">                
+                <tech name="railwayGuns"/>
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>                               
+            </category>
+            <category name="Screens and Subs">               
+                <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="fleetaction"/>               
+                <tech name="dockyards"/>
+                <tech name="aircraftCarrier"/>
+            </category> 
         </playerTech>
     </technology>
     <!--  relationshipType Attachments -->
