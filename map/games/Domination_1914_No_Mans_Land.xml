@@ -7614,105 +7614,124 @@
 <br> To enable Technology, select "Tech Development" in "Game Options" prior to the beginning of the game.<br>
 
 <table border="1"bgcolor="ABABAB">
-	<tr>
-	<th style="font-size:120%;000000"bgcolor="FEECE2"colspan="3">Technology List</th>
-	</tr>
+    <tr>
+        <th style="font-size:120%;000000"bgcolor="FEECE2"colspan="3">Technology List</th>
+    </tr>
+
+    <tr>
+        <th>Category</th>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
 
     <tr bgcolor="BDBDBD">
-	<th>Tech Type</th>
-	<th>Tech Name</th>
-	<th>Description</th>
-	</tr>
-	
-	<th>Industry</th>
-	<th>Victory Bonds</th>
-	<th>2D6 extra pus per turn</th>
-	</tr>
-	
-	<th>Industry</th>
-	<th>Industry</th>
-	<th>Place 2 more units in territories worth 2 or more</th>
-	</tr>	
+        <td>Economy</td>
+        <td>Science</td>
+        <td>1 free tech token per turn</td>
+    </tr>
 
-	<th>Industry</th>
-	<th>Working Women</th>
-	<th>Reduces Field and Heavy Artillery by 0.5, Fighter and Gas by 1</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Economy</td>
+        <td>Victory Bonds</td>
+        <td>2D6 extra pus per turn</td>
+    </tr>	
 
-	<th>Industry</th>
-	<th>Science</th>
-	<th>1 free tech token per turn</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Economy</td>
+        <td>Working Women</td>
+        <td>Reduces Field and Heavy Artillery by 0.5, Fighter and Gas by 1</td>
+    </tr>
 
-	<th>Industry</th>
-	<th>Propaganda</th>
-	<th>3 free Infantry (Stormtruppen) per turn on your capital</th>
-	</tr>
+    <tr>
+        <td>Innovation</td>
+        <td>Armour</td>
+        <td>Unlocks Tank unit</td>
+    </tr>
 
-	<th>Industry</th>
-	<th>Late Fighter</th>
-	<th>Unlocks Late Figher unit</th>
-	</tr>
+    <tr>
+        <td>Innovation</td>
+        <td>Industry</td>
+        <td>Place 2 more units in territories worth 2 or more</td>
+    </tr>
 
-	<th>Naval</th>
-	<th>Sub Warfare</th>
-	<th>Submarines attack at 3 & defend at 2</th>
-	</tr>
+    <tr>
+        <td>Innovation</td>
+        <td>Late Fighter</td>
+        <td>Unlocks Late Figher unit</td>
+    </tr>
 
-	<th>Naval</th>
-	<th>Convoys</th>
-	<th>Destroyers Defend at 3, Cruisers Defend at 4</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Land Offense</td>
+        <td>Creeping Barage</td>
+        <td>Field Artillery attacks at 3</td>
+    </tr>
 
-	<th>Naval</th>
-	<th>Dockyards</th>
-	<th>Reduce BB's and BC's by 2 pus, Reduce rest by 1 pus</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Land Offense</td>
+        <td>Mobile Warfare</td>
+        <td>Cavalry moves at 3</td>
+    </tr>
 
-	<th>Naval</th>
-	<th>Fleet Action</th>
-	<th>Battlecruisers and Battleships attack at 5</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Land Offense</td>
+        <td>Mustard Gas</td>
+        <td>Gas Attacks at 5</td>
+    </tr>	
 
-	<th>Naval</th>
-	<th>Merchant Marine</th>
-	<th>Destroyers, Cruisers, and Battlecruisers move at 3</th>
-	</tr>
+    <tr>
+        <td>Land Defense</td>
+        <td>Bunkers</td>
+        <td>Trenches defend at 1</td>
+    </tr>
 
-	<th>Naval</th>
-	<th>Aircraft Carrier</th>
-	<th>Unlocks Carrier unit</th>
-	</tr>
+    <tr>
+        <td>Land Defense</td>
+        <td>Propaganda</td>
+        <td>3 free Infantry (Stormtruppen) per turn on your capital</td>
+    </tr>
 
-	<th>Land</th>
-	<th>Creeping Barage</th>
-	<th>Field Artillery attacks at 3</th>
-	</tr>
+    <tr>
+        <td>Land Defense</td>
+        <td>Railway Guns</td>
+        <td>Heavy Artillery defends at 5</td>
+    </tr>
 
-	<th>Land</th>
-	<th>Railway Guns</th>
-	<th>Heavy Artillery defends at 5</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Screens and Subs</td>
+        <td>Convoys</td>
+        <td>Destroyers Defend at 3, Cruisers Defend at 4</td>
+    </tr>
 
-	<th>Land</th>
-	<th>mustardGas</th>
-	<th>Gas Attacks at 5</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Screens and Subs</td>
+        <td>Merchant Marine</td>
+        <td>Destroyers, Cruisers, and Battlecruisers move at 3</td>
+    </tr>
 
-	<th>Land</th>
-	<th>Bunkers</th>
-	<th>Trenches defend at 1</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Screens and Subs</td>
+        <td>Sub Warfare</td>
+        <td>Submarines attack at 3 & defend at 2</td>
+    </tr>
 
-	<th>Land</th>
-	<th>Mobile Warfare</th>
-	<th>Cavalry moves at 3</th>
-	</tr>
+    <tr>
+        <td>Capital Ships</td>
+        <td>Aircraft Carrier</td>
+        <td>Unlocks Carrier unit</td>
+    </tr>
 
-	<th>Land</th>
-	<th>Armour</th>
-	<th>Unlocks Tank unit</th>
-	</tr>
+    <tr>
+        <td>Capital Ships</td>
+        <td>Dockyards</td>
+        <td>Reduce BB's and BC's by 2 pus, Reduce rest by 1 pus</td>
+    </tr>
+
+    <tr>
+        <td>Capital Ships</td>
+        <td>Fleet Action</td>
+        <td>Battlecruisers and Battleships attack at 5</td>
+    </tr>
+
 </table>
 <br>
 
