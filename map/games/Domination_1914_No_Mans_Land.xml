@@ -3031,13 +3031,13 @@
         </technologies>
         <playerTech player="Germany">
             <category name="Economy">
-                <tech name="victoryBonds"/>                
-                <tech name="workingWomen"/>
                 <tech name="science"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
             </category>
-            <category name="Innovation">               
-                <tech name="industry"/>
+            <category name="Innovation">                              
                 <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
             <category name="Land Offense">
@@ -3045,10 +3045,10 @@
                 <tech name="mobileWarfare"/>
                 <tech name="mustardGas"/>
             </category>
-            <category name="Land Defense">                
-                <tech name="railwayGuns"/>
+            <category name="Land Defense">                               
                 <tech name="bunkers"/>
-                <tech name="propaganda"/>                               
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
             </category>
             <category name="Screens and Subs">               
                 <tech name="convoys"/>
@@ -3056,20 +3056,20 @@
                 <tech name="subwarfare"/>
             </category> 
             <category name="Capital Ships">               
-                <tech name="fleetaction"/>               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
-                <tech name="aircraftCarrier"/>
+                <tech name="fleetaction"/>
             </category>                     
         </playerTech>
         <playerTech player="France">
             <category name="Economy">
-                <tech name="victoryBonds"/>                
-                <tech name="workingWomen"/>
                 <tech name="science"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
             </category>
-            <category name="Innovation">               
-                <tech name="industry"/>
+            <category name="Innovation">                              
                 <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
             <category name="Land Offense">
@@ -3077,10 +3077,10 @@
                 <tech name="mobileWarfare"/>
                 <tech name="mustardGas"/>
             </category>
-            <category name="Land Defense">                
-                <tech name="railwayGuns"/>
+            <category name="Land Defense">                               
                 <tech name="bunkers"/>
-                <tech name="propaganda"/>                               
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
             </category>
             <category name="Screens and Subs">               
                 <tech name="convoys"/>
@@ -3088,20 +3088,20 @@
                 <tech name="subwarfare"/>
             </category> 
             <category name="Capital Ships">               
-                <tech name="fleetaction"/>               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
-                <tech name="aircraftCarrier"/>
+                <tech name="fleetaction"/>
             </category> 
         </playerTech>
         <playerTech player="Austria">
             <category name="Economy">
-                <tech name="victoryBonds"/>                
-                <tech name="workingWomen"/>
                 <tech name="science"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
             </category>
-            <category name="Innovation">               
-                <tech name="industry"/>
+            <category name="Innovation">                              
                 <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
             <category name="Land Offense">
@@ -3109,10 +3109,10 @@
                 <tech name="mobileWarfare"/>
                 <tech name="mustardGas"/>
             </category>
-            <category name="Land Defense">                
-                <tech name="railwayGuns"/>
+            <category name="Land Defense">                               
                 <tech name="bunkers"/>
-                <tech name="propaganda"/>                               
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
             </category>
             <category name="Screens and Subs">               
                 <tech name="convoys"/>
@@ -3120,20 +3120,20 @@
                 <tech name="subwarfare"/>
             </category> 
             <category name="Capital Ships">               
-                <tech name="fleetaction"/>               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
-                <tech name="aircraftCarrier"/>
+                <tech name="fleetaction"/>
             </category> 
         </playerTech>
         <playerTech player="Italy">
             <category name="Economy">
-                <tech name="victoryBonds"/>                
-                <tech name="workingWomen"/>
                 <tech name="science"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
             </category>
-            <category name="Innovation">               
-                <tech name="industry"/>
+            <category name="Innovation">                              
                 <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
             <category name="Land Offense">
@@ -3141,10 +3141,10 @@
                 <tech name="mobileWarfare"/>
                 <tech name="mustardGas"/>
             </category>
-            <category name="Land Defense">                
-                <tech name="railwayGuns"/>
+            <category name="Land Defense">                               
                 <tech name="bunkers"/>
-                <tech name="propaganda"/>                               
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
             </category>
             <category name="Screens and Subs">               
                 <tech name="convoys"/>
@@ -3152,20 +3152,20 @@
                 <tech name="subwarfare"/>
             </category> 
             <category name="Capital Ships">               
-                <tech name="fleetaction"/>               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
-                <tech name="aircraftCarrier"/>
-            </category> 
+                <tech name="fleetaction"/>
+            </category>
         </playerTech>
         <playerTech player="Turkey">
             <category name="Economy">
-                <tech name="victoryBonds"/>                
-                <tech name="workingWomen"/>
                 <tech name="science"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
             </category>
-            <category name="Innovation">               
-                <tech name="industry"/>
+            <category name="Innovation">                              
                 <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
             <category name="Land Offense">
@@ -3173,10 +3173,10 @@
                 <tech name="mobileWarfare"/>
                 <tech name="mustardGas"/>
             </category>
-            <category name="Land Defense">                
-                <tech name="railwayGuns"/>
+            <category name="Land Defense">                               
                 <tech name="bunkers"/>
-                <tech name="propaganda"/>                               
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
             </category>
             <category name="Screens and Subs">               
                 <tech name="convoys"/>
@@ -3184,20 +3184,20 @@
                 <tech name="subwarfare"/>
             </category> 
             <category name="Capital Ships">               
-                <tech name="fleetaction"/>               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
-                <tech name="aircraftCarrier"/>
+                <tech name="fleetaction"/>
             </category> 
         </playerTech>
         <playerTech player="Britain">
             <category name="Economy">
-                <tech name="victoryBonds"/>                
-                <tech name="workingWomen"/>
                 <tech name="science"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
             </category>
-            <category name="Innovation">               
-                <tech name="industry"/>
+            <category name="Innovation">                              
                 <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
             <category name="Land Offense">
@@ -3205,10 +3205,10 @@
                 <tech name="mobileWarfare"/>
                 <tech name="mustardGas"/>
             </category>
-            <category name="Land Defense">                
-                <tech name="railwayGuns"/>
+            <category name="Land Defense">                               
                 <tech name="bunkers"/>
-                <tech name="propaganda"/>                               
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
             </category>
             <category name="Screens and Subs">               
                 <tech name="convoys"/>
@@ -3216,20 +3216,20 @@
                 <tech name="subwarfare"/>
             </category> 
             <category name="Capital Ships">               
-                <tech name="fleetaction"/>               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
-                <tech name="aircraftCarrier"/>
+                <tech name="fleetaction"/>
             </category> 
         </playerTech>
         <playerTech player="Russia">
             <category name="Economy">
-                <tech name="victoryBonds"/>                
-                <tech name="workingWomen"/>
                 <tech name="science"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
             </category>
-            <category name="Innovation">               
-                <tech name="industry"/>
+            <category name="Innovation">                              
                 <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
             <category name="Land Offense">
@@ -3237,10 +3237,10 @@
                 <tech name="mobileWarfare"/>
                 <tech name="mustardGas"/>
             </category>
-            <category name="Land Defense">                
-                <tech name="railwayGuns"/>
+            <category name="Land Defense">                               
                 <tech name="bunkers"/>
-                <tech name="propaganda"/>                               
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
             </category>
             <category name="Screens and Subs">               
                 <tech name="convoys"/>
@@ -3248,20 +3248,20 @@
                 <tech name="subwarfare"/>
             </category> 
             <category name="Capital Ships">               
-                <tech name="fleetaction"/>               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
-                <tech name="aircraftCarrier"/>
-            </category> 
+                <tech name="fleetaction"/>
+            </category>
         </playerTech>
         <playerTech player="Communists">
             <category name="Economy">
-                <tech name="victoryBonds"/>                
-                <tech name="workingWomen"/>
                 <tech name="science"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
             </category>
-            <category name="Innovation">               
-                <tech name="industry"/>
+            <category name="Innovation">                              
                 <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
             <category name="Land Offense">
@@ -3269,10 +3269,10 @@
                 <tech name="mobileWarfare"/>
                 <tech name="mustardGas"/>
             </category>
-            <category name="Land Defense">                
-                <tech name="railwayGuns"/>
+            <category name="Land Defense">                               
                 <tech name="bunkers"/>
-                <tech name="propaganda"/>                               
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
             </category>
             <category name="Screens and Subs">               
                 <tech name="convoys"/>
@@ -3280,20 +3280,20 @@
                 <tech name="subwarfare"/>
             </category> 
             <category name="Capital Ships">               
-                <tech name="fleetaction"/>               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
-                <tech name="aircraftCarrier"/>
+                <tech name="fleetaction"/>
             </category> 
         </playerTech>
         <playerTech player="USA">
             <category name="Economy">
-                <tech name="victoryBonds"/>                
-                <tech name="workingWomen"/>
                 <tech name="science"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
             </category>
-            <category name="Innovation">               
-                <tech name="industry"/>
+            <category name="Innovation">                              
                 <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
             <category name="Land Offense">
@@ -3301,10 +3301,10 @@
                 <tech name="mobileWarfare"/>
                 <tech name="mustardGas"/>
             </category>
-            <category name="Land Defense">                
-                <tech name="railwayGuns"/>
+            <category name="Land Defense">                               
                 <tech name="bunkers"/>
-                <tech name="propaganda"/>                               
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
             </category>
             <category name="Screens and Subs">               
                 <tech name="convoys"/>
@@ -3312,10 +3312,10 @@
                 <tech name="subwarfare"/>
             </category> 
             <category name="Capital Ships">               
-                <tech name="fleetaction"/>               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
-                <tech name="aircraftCarrier"/>
-            </category> 
+                <tech name="fleetaction"/>
+            </category>
         </playerTech>
     </technology>
     <!--  relationshipType Attachments -->
