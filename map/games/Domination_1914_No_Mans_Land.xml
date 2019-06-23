@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Domination 1914 No Man's Land" version="1.2"/>
+    <info name="Domination 1914 No Man's Land" version="1.3"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.5"/>
     <diceSides value="6"/>
@@ -2569,13 +2569,11 @@
             <step name="FrancePlace" delegate="place" player="France"/>
             <step name="FranceTechActivation" delegate="tech_activation" player="France"/>
             <step name="FranceEndTurn" delegate="endTurn" player="France"/>
-            <step name="SerbiaTech" delegate="tech" player="Serbia"/>
             <step name="SerbiaCombatMove" delegate="move" player="Serbia"/>
             <step name="SerbiaPurchase" delegate="purchase" player="Serbia"/>
             <step name="SerbiaBattle" delegate="battle" player="Serbia"/>
             <step name="SerbiaNonCombatMove" delegate="move" player="Serbia" display="Non Combat Move"/>
             <step name="SerbiaPlace" delegate="place" player="Serbia"/>
-            <step name="SerbiaTechActivation" delegate="tech_activation" player="Serbia"/>
             <step name="SerbiaEndTurn" delegate="endTurn" player="Serbia"/>
             <step name="AustriaTech" delegate="tech" player="Austria"/>
             <step name="AustriaCombatMove" delegate="move" player="Austria"/>
@@ -3083,32 +3081,6 @@
                 <tech name="armour"/>
             </category>
         </playerTech>
-        <playerTech player="Serbia">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
-                <tech name="science"/>
-                <tech name="propaganda"/>
-                <tech name="lateFighter"/>
-            </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
-                <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
-                <tech name="mobileWarfare"/>
-                <tech name="armour"/>
-            </category>
-        </playerTech>
         <playerTech player="Austria">
             <category name="Industry">
                 <tech name="victoryBonds"/>
@@ -3266,32 +3238,6 @@
             </category>
         </playerTech>
         <playerTech player="USA">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
-                <tech name="science"/>
-                <tech name="propaganda"/>
-                <tech name="lateFighter"/>
-            </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
-                <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
-                <tech name="mobileWarfare"/>
-                <tech name="armour"/>
-            </category>
-        </playerTech>
-        <playerTech player="Arabia">
             <category name="Industry">
                 <tech name="victoryBonds"/>
                 <tech name="industry"/>
