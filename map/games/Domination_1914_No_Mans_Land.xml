@@ -4692,10 +4692,10 @@
             <option name="production" value="2"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Chubu" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="6"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Chugoku" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="6"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Chungking" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
@@ -4785,7 +4785,7 @@
             <option name="production" value="2"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Hokkaido" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="4"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Holland" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
@@ -4827,10 +4827,10 @@
             <option name="production" value="2"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Kyoto" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="6"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Kyushu" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="6"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="La Paz" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="4"/>
@@ -4998,10 +4998,10 @@
             <option name="production" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Tohoku" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="4"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Tokyo" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="12"/>
+            <option name="production" value="8"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Toledo" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
@@ -7231,7 +7231,7 @@
 <br><span style="font-size:280%;color:000000;"></span><b><span style="font-size:280%;color:660000;">Domination 1914 No Man's Land</span></b><span style="font-size:280%;color:000000;"></span>
 <br>
 
-<br><span style="font-size:120%;000000"colspan="2"><b>Version 1.1</b></span></th>
+<br><span style="font-size:120%;000000"colspan="2"><b>Version 1.3</b></span></th>
 <br>
 <br>
 
@@ -7243,8 +7243,8 @@
 
 <br><span style="font-size:120%"><b>Modded by Imbaked</b></span>
 <br><span style="font-size:120%"><b>Updated by Redrum</b></span>
-<br><span style="font-size:110%"><b>Game Design by TripleK and Surtur</b></span>
-<br><span style="font-size:110%">Engine Support by Veqryn</span>
+<br>Game Design by TripleK and Surtur
+<br>Engine Support by Veqryn
 <br>Relief Tiles by Siege
 <br>
 
