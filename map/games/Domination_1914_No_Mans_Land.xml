@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Domination 1914 No Man's Land" version="1.2"/>
+    <info name="Domination 1914 No Man's Land" version="1.3"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.5"/>
     <diceSides value="6"/>
@@ -1434,7 +1434,6 @@
         <connection t1="Sea Zone 20 Labrador Sea" t2="Newfoundland"/>
         <connection t1="Sea Zone 20 Labrador Sea" t2="St. John's Island"/>
         <connection t1="Sea Zone 21 Gulf of St. Lawrence" t2="Sea Zone 22 Mid Atlantic"/>
-        <connection t1="Sea Zone 21 Gulf of St. Lawrence" t2="Sea Zone 29 Mid Atlantic"/>
         <connection t1="Sea Zone 21 Gulf of St. Lawrence" t2="St. John's Island"/>
         <connection t1="Sea Zone 21 Gulf of St. Lawrence" t2="Quebec"/>
         <connection t1="Sea Zone 21 Gulf of St. Lawrence" t2="Nova Scotia"/>
@@ -2569,13 +2568,11 @@
             <step name="FrancePlace" delegate="place" player="France"/>
             <step name="FranceTechActivation" delegate="tech_activation" player="France"/>
             <step name="FranceEndTurn" delegate="endTurn" player="France"/>
-            <step name="SerbiaTech" delegate="tech" player="Serbia"/>
             <step name="SerbiaCombatMove" delegate="move" player="Serbia"/>
             <step name="SerbiaPurchase" delegate="purchase" player="Serbia"/>
             <step name="SerbiaBattle" delegate="battle" player="Serbia"/>
             <step name="SerbiaNonCombatMove" delegate="move" player="Serbia" display="Non Combat Move"/>
             <step name="SerbiaPlace" delegate="place" player="Serbia"/>
-            <step name="SerbiaTechActivation" delegate="tech_activation" player="Serbia"/>
             <step name="SerbiaEndTurn" delegate="endTurn" player="Serbia"/>
             <step name="AustriaTech" delegate="tech" player="Austria"/>
             <step name="AustriaCombatMove" delegate="move" player="Austria"/>
@@ -3032,289 +3029,291 @@
             <techname name="armour"/>
         </technologies>
         <playerTech player="Germany">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
+            <category name="Economy">
                 <tech name="science"/>
-                <tech name="propaganda"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
+            </category>
+            <category name="Innovation">                              
+                <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
+            <category name="Land Offense">
+                <tech name="creepingBarage"/>
+                <tech name="mobileWarfare"/>
+                <tech name="mustardGas"/>
+            </category>
+            <category name="Land Defense">                               
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
+            </category>
+            <category name="Screens and Subs">               
                 <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
                 <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
-                <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
-                <tech name="mobileWarfare"/>
-                <tech name="armour"/>
-            </category>
+            </category>                     
         </playerTech>
         <playerTech player="France">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
+            <category name="Economy">
                 <tech name="science"/>
-                <tech name="propaganda"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
+            </category>
+            <category name="Innovation">                              
+                <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
+            <category name="Land Offense">
                 <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
                 <tech name="mobileWarfare"/>
-                <tech name="armour"/>
+                <tech name="mustardGas"/>
             </category>
-        </playerTech>
-        <playerTech player="Serbia">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
-                <tech name="science"/>
+            <category name="Land Defense">                               
+                <tech name="bunkers"/>
                 <tech name="propaganda"/>
-                <tech name="lateFighter"/>
+                <tech name="railwayGuns"/>                
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
+            <category name="Screens and Subs">               
                 <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
                 <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
-                <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
-                <tech name="mobileWarfare"/>
-                <tech name="armour"/>
-            </category>
+            </category> 
         </playerTech>
         <playerTech player="Austria">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
+            <category name="Economy">
                 <tech name="science"/>
-                <tech name="propaganda"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
+            </category>
+            <category name="Innovation">                              
+                <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
+            <category name="Land Offense">
+                <tech name="creepingBarage"/>
+                <tech name="mobileWarfare"/>
+                <tech name="mustardGas"/>
+            </category>
+            <category name="Land Defense">                               
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
+            </category>
+            <category name="Screens and Subs">               
                 <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
                 <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
-                <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
-                <tech name="mobileWarfare"/>
-                <tech name="armour"/>
-            </category>
+            </category> 
         </playerTech>
         <playerTech player="Italy">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
+            <category name="Economy">
                 <tech name="science"/>
-                <tech name="propaganda"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
+            </category>
+            <category name="Innovation">                              
+                <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
+            <category name="Land Offense">
+                <tech name="creepingBarage"/>
+                <tech name="mobileWarfare"/>
+                <tech name="mustardGas"/>
+            </category>
+            <category name="Land Defense">                               
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
+            </category>
+            <category name="Screens and Subs">               
                 <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
                 <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
-                <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
-                <tech name="mobileWarfare"/>
-                <tech name="armour"/>
             </category>
         </playerTech>
         <playerTech player="Turkey">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
+            <category name="Economy">
                 <tech name="science"/>
-                <tech name="propaganda"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
+            </category>
+            <category name="Innovation">                              
+                <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
+            <category name="Land Offense">
+                <tech name="creepingBarage"/>
+                <tech name="mobileWarfare"/>
+                <tech name="mustardGas"/>
+            </category>
+            <category name="Land Defense">                               
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
+            </category>
+            <category name="Screens and Subs">               
                 <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
                 <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
-                <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
-                <tech name="mobileWarfare"/>
-                <tech name="armour"/>
-            </category>
+            </category> 
         </playerTech>
         <playerTech player="Britain">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
+            <category name="Economy">
                 <tech name="science"/>
-                <tech name="propaganda"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
+            </category>
+            <category name="Innovation">                              
+                <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
+            <category name="Land Offense">
+                <tech name="creepingBarage"/>
+                <tech name="mobileWarfare"/>
+                <tech name="mustardGas"/>
+            </category>
+            <category name="Land Defense">                               
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
+            </category>
+            <category name="Screens and Subs">               
                 <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
                 <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
-                <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
-                <tech name="mobileWarfare"/>
-                <tech name="armour"/>
-            </category>
+            </category> 
         </playerTech>
         <playerTech player="Russia">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
+            <category name="Economy">
                 <tech name="science"/>
-                <tech name="propaganda"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
+            </category>
+            <category name="Innovation">                              
+                <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
+            <category name="Land Offense">
+                <tech name="creepingBarage"/>
+                <tech name="mobileWarfare"/>
+                <tech name="mustardGas"/>
+            </category>
+            <category name="Land Defense">                               
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
+            </category>
+            <category name="Screens and Subs">               
                 <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
                 <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
-                <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
-                <tech name="mobileWarfare"/>
-                <tech name="armour"/>
             </category>
         </playerTech>
         <playerTech player="Communists">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
+            <category name="Economy">
                 <tech name="science"/>
-                <tech name="propaganda"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
+            </category>
+            <category name="Innovation">                              
+                <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
+            <category name="Land Offense">
+                <tech name="creepingBarage"/>
+                <tech name="mobileWarfare"/>
+                <tech name="mustardGas"/>
+            </category>
+            <category name="Land Defense">                               
+                <tech name="bunkers"/>
+                <tech name="propaganda"/>
+                <tech name="railwayGuns"/>                
+            </category>
+            <category name="Screens and Subs">               
                 <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
                 <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
-                <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
-                <tech name="mobileWarfare"/>
-                <tech name="armour"/>
-            </category>
+            </category> 
         </playerTech>
         <playerTech player="USA">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
+            <category name="Economy">
                 <tech name="science"/>
-                <tech name="propaganda"/>
+                <tech name="victoryBonds"/>                
+                <tech name="workingWomen"/>                
+            </category>
+            <category name="Innovation">                              
+                <tech name="armour"/>
+                <tech name="industry"/>
                 <tech name="lateFighter"/>
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
-                <tech name="convoys"/>
-                <tech name="dockyards"/>
-                <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
+            <category name="Land Offense">
                 <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
                 <tech name="mobileWarfare"/>
-                <tech name="armour"/>
+                <tech name="mustardGas"/>
             </category>
-        </playerTech>
-        <playerTech player="Arabia">
-            <category name="Industry">
-                <tech name="victoryBonds"/>
-                <tech name="industry"/>
-                <tech name="workingWomen"/>
-                <tech name="science"/>
+            <category name="Land Defense">                               
+                <tech name="bunkers"/>
                 <tech name="propaganda"/>
-                <tech name="lateFighter"/>
+                <tech name="railwayGuns"/>                
             </category>
-            <category name="Naval">
-                <tech name="subwarfare"/>
+            <category name="Screens and Subs">               
                 <tech name="convoys"/>
+                <tech name="merchantmarine"/>
+                <tech name="subwarfare"/>
+            </category> 
+            <category name="Capital Ships">               
+                <tech name="aircraftCarrier"/>                              
                 <tech name="dockyards"/>
                 <tech name="fleetaction"/>
-                <tech name="merchantmarine"/>
-                <tech name="aircraftCarrier"/>
-            </category>
-            <category name="Land">
-                <tech name="creepingBarage"/>
-                <tech name="railwayGuns"/>
-                <tech name="mustardGas"/>
-                <tech name="bunkers"/>
-                <tech name="mobileWarfare"/>
-                <tech name="armour"/>
             </category>
         </playerTech>
     </technology>
@@ -4692,10 +4691,10 @@
             <option name="production" value="2"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Chubu" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="6"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Chugoku" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="6"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Chungking" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
@@ -4785,7 +4784,7 @@
             <option name="production" value="2"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Hokkaido" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="4"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Holland" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
@@ -4827,10 +4826,10 @@
             <option name="production" value="2"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Kyoto" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="6"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Kyushu" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="6"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="La Paz" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="4"/>
@@ -4998,10 +4997,10 @@
             <option name="production" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Tohoku" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="4"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Tokyo" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="12"/>
+            <option name="production" value="8"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Toledo" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
@@ -6513,7 +6512,7 @@
             <unitPlacement unitType="infantry" territory="Syria" quantity="1" owner="Turkey"/>
             <unitPlacement unitType="field_gun" territory="Trucial Coast" quantity="1" owner="Turkey"/>
             <unitPlacement unitType="infantry" territory="Trucial Coast" quantity="1" owner="Turkey"/>
-            <unitPlacement unitType="cavalry" territory="Alberta" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="colonial" territory="Alberta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="field_gun" territory="Basra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Basra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="trench" territory="Basra" quantity="1" owner="Britain"/>
@@ -6538,7 +6537,7 @@
             <unitPlacement unitType="infantry" territory="Cape Town" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Congo" quantity="1" owner="Britain"/>
             <unitPlacement unitType="cavalry" territory="England" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="fighter" territory="England" quantity="2" owner="Britain"/>
+            <unitPlacement unitType="fighter" territory="England" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="England" quantity="4" owner="Britain"/>
             <unitPlacement unitType="field_gun" territory="Gibraltar" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Gibraltar" quantity="1" owner="Britain"/>
@@ -6548,6 +6547,7 @@
             <unitPlacement unitType="infantry" territory="Gold Coast" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="Guadalcanal" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Hong Kong" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="fighter" territory="Ireland" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Jamaica" quantity="1" owner="Britain"/>
             <unitPlacement unitType="cavalry" territory="Kuwait" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Kuwait" quantity="1" owner="Britain"/>
@@ -6685,13 +6685,13 @@
             <unitPlacement unitType="infantry" territory="Luzon" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="Manila" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="Mindanao" quantity="1" owner="USA"/>
-            <unitPlacement unitType="cavalry" territory="Montana" quantity="1" owner="USA"/>
+            <unitPlacement unitType="infantry" territory="Montana" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="New England" quantity="1" owner="USA"/>
             <unitPlacement unitType="cavalry" territory="New Mexico" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="New Orleans" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="New York" quantity="1" owner="USA"/>
             <unitPlacement unitType="Factory" territory="New York" quantity="1" owner="USA"/>
-            <unitPlacement unitType="cavalry" territory="Oregon" quantity="1" owner="USA"/>
+            <unitPlacement unitType="infantry" territory="Oregon" quantity="1" owner="USA"/>
             <unitPlacement unitType="cavalry" territory="Panama" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="Panama" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="San Francisco" quantity="1" owner="USA"/>
@@ -6801,11 +6801,11 @@
             <unitPlacement unitType="infantry" territory="Azores" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Canary Islands" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Afghanistan" quantity="10"/>
-            <unitPlacement unitType="infantry" territory="Algarve" quantity="6"/>
-            <unitPlacement unitType="infantry" territory="Amazon" quantity="8"/>
+            <unitPlacement unitType="infantry" territory="Algarve" quantity="8"/>
+            <unitPlacement unitType="infantry" territory="Amazon" quantity="10"/>
             <unitPlacement unitType="infantry" territory="Amsterdam" quantity="4"/>
             <unitPlacement unitType="trench" territory="Amsterdam" quantity="2"/>
-            <unitPlacement unitType="infantry" territory="Andalusia" quantity="4"/>
+            <unitPlacement unitType="infantry" territory="Andalusia" quantity="6"/>
             <unitPlacement unitType="cavalry" territory="Angola" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Angola" quantity="3"/>
             <unitPlacement unitType="infantry" territory="Anshan" quantity="8"/>
@@ -6814,18 +6814,19 @@
             <unitPlacement unitType="infantry" territory="Baja-Sonora" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Baluchistan" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Bhutan" quantity="6"/>
+            <unitPlacement unitType="infantry" territory="Bolivia" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Borneo" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Brasilia" quantity="2"/>
             <unitPlacement unitType="cavalry" territory="Buenos Aires" quantity="2"/>
-            <unitPlacement unitType="infantry" territory="Buenos Aires" quantity="6"/>
-            <unitPlacement unitType="infantry" territory="Canton" quantity="10"/>
-            <unitPlacement unitType="infantry" territory="Caracas" quantity="2"/>
+            <unitPlacement unitType="infantry" territory="Buenos Aires" quantity="8"/>
+            <unitPlacement unitType="infantry" territory="Canton" quantity="12"/>
+            <unitPlacement unitType="infantry" territory="Caracas" quantity="6"/>
             <unitPlacement unitType="heavy_gun" territory="Castile" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Castile" quantity="2"/>
             <unitPlacement unitType="field_gun" territory="Catalonia" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Catalonia" quantity="3"/>
             <unitPlacement unitType="infantry" territory="Celebes" quantity="6"/>
-            <unitPlacement unitType="infantry" territory="Central Brazil" quantity="12"/>
+            <unitPlacement unitType="infantry" territory="Central Brazil" quantity="14"/>
             <unitPlacement unitType="infantry" territory="Ceuta" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Changchun" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Chihuahua" quantity="2"/>
@@ -6835,7 +6836,7 @@
             <unitPlacement unitType="infantry" territory="Chubu" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Chugoku" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Chungking" quantity="8"/>
-            <unitPlacement unitType="infantry" territory="Colombia" quantity="4"/>
+            <unitPlacement unitType="infantry" territory="Colombia" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Costa Rica" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Denmark" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Dominica" quantity="4"/>
@@ -6864,7 +6865,7 @@
             <unitPlacement unitType="infantry" territory="Hanguk" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Harbin" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Havana" quantity="6"/>
-            <unitPlacement unitType="infantry" territory="Hebei" quantity="8"/>
+            <unitPlacement unitType="infantry" territory="Hebei" quantity="10"/>
             <unitPlacement unitType="infantry" territory="Henan-Anhui" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Hokkaido" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Holland" quantity="3"/>
@@ -6887,7 +6888,7 @@
             <unitPlacement unitType="field_gun" territory="La Paz" quantity="1"/>
             <unitPlacement unitType="infantry" territory="La Paz" quantity="5"/>
             <unitPlacement unitType="infantry" territory="Leon" quantity="4"/>
-            <unitPlacement unitType="infantry" territory="Lima" quantity="4"/>
+            <unitPlacement unitType="infantry" territory="Lima" quantity="6"/>
             <unitPlacement unitType="heavy_gun" territory="Lisbon" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Lisbon" quantity="12"/>
             <unitPlacement unitType="infantry" territory="Lurs" quantity="2"/>
@@ -6903,7 +6904,7 @@
             <unitPlacement unitType="infantry" territory="Navarre" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Nepal" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Nicaragua" quantity="4"/>
-            <unitPlacement unitType="infantry" territory="Norte" quantity="6"/>
+            <unitPlacement unitType="infantry" territory="Norte" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Norway" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Okha" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Oslo" quantity="3"/>
@@ -6918,14 +6919,14 @@
             <unitPlacement unitType="infantry" territory="Puerto Vallarta" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Qinghai" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Rio Muni" quantity="4"/>
-            <unitPlacement unitType="infantry" territory="Rio de Janeiro" quantity="8"/>
+            <unitPlacement unitType="infantry" territory="Rio de Janeiro" quantity="10"/>
             <unitPlacement unitType="infantry" territory="Rio de Oro" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Romania" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Ryuku" quantity="10"/>
             <unitPlacement unitType="infantry" territory="Sakhalin" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Sao Paulo" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Shaanxi" quantity="4"/>
-            <unitPlacement unitType="infantry" territory="Shantung" quantity="8"/>
+            <unitPlacement unitType="infantry" territory="Shantung" quantity="10"/>
             <unitPlacement unitType="infantry" territory="Shanxi" quantity="12"/>
             <unitPlacement unitType="infantry" territory="Shenyang" quantity="10"/>
             <unitPlacement unitType="infantry" territory="Shikoku" quantity="8"/>
@@ -6946,8 +6947,8 @@
             <unitPlacement unitType="heavy_gun" territory="Toledo" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Toledo" quantity="5"/>
             <unitPlacement unitType="infantry" territory="Uruguay" quantity="2"/>
-            <unitPlacement unitType="infantry" territory="Valencia" quantity="4"/>
-            <unitPlacement unitType="infantry" territory="Venezuela" quantity="3"/>
+            <unitPlacement unitType="infantry" territory="Valencia" quantity="6"/>
+            <unitPlacement unitType="infantry" territory="Venezuela" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Veracruz" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Western Cuba" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Yan'an" quantity="12"/>
@@ -7231,7 +7232,7 @@
 <br><span style="font-size:280%;color:000000;"></span><b><span style="font-size:280%;color:660000;">Domination 1914 No Man's Land</span></b><span style="font-size:280%;color:000000;"></span>
 <br>
 
-<br><span style="font-size:120%;000000"colspan="2"><b>Version 1.1</b></span></th>
+<br><span style="font-size:120%;000000"colspan="2"><b>Version 1.3</b></span></th>
 <br>
 <br>
 
@@ -7243,8 +7244,8 @@
 
 <br><span style="font-size:120%"><b>Modded by Imbaked</b></span>
 <br><span style="font-size:120%"><b>Updated by Redrum</b></span>
-<br><span style="font-size:110%"><b>Game Design by TripleK and Surtur</b></span>
-<br><span style="font-size:110%">Engine Support by Veqryn</span>
+<br>Game Design by TripleK and Surtur
+<br>Engine Support by Veqryn
 <br>Relief Tiles by Siege
 <br>
 
@@ -7614,105 +7615,124 @@
 <br> To enable Technology, select "Tech Development" in "Game Options" prior to the beginning of the game.<br>
 
 <table border="1"bgcolor="ABABAB">
-	<tr>
-	<th style="font-size:120%;000000"bgcolor="FEECE2"colspan="3">Technology List</th>
-	</tr>
+    <tr>
+        <th style="font-size:120%;000000"bgcolor="FEECE2"colspan="3">Technology List</th>
+    </tr>
+
+    <tr>
+        <th>Category</th>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
 
     <tr bgcolor="BDBDBD">
-	<th>Tech Type</th>
-	<th>Tech Name</th>
-	<th>Description</th>
-	</tr>
-	
-	<th>Industry</th>
-	<th>Victory Bonds</th>
-	<th>2D6 extra pus per turn</th>
-	</tr>
-	
-	<th>Industry</th>
-	<th>Industry</th>
-	<th>Place 2 more units in territories worth 2 or more</th>
-	</tr>	
+        <td>Economy</td>
+        <td>Science</td>
+        <td>1 free tech token per turn</td>
+    </tr>
 
-	<th>Industry</th>
-	<th>Working Women</th>
-	<th>Reduces Field and Heavy Artillery by 0.5, Fighter and Gas by 1</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Economy</td>
+        <td>Victory Bonds</td>
+        <td>2D6 extra pus per turn</td>
+    </tr>	
 
-	<th>Industry</th>
-	<th>Science</th>
-	<th>1 free tech token per turn</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Economy</td>
+        <td>Working Women</td>
+        <td>Reduces Field and Heavy Artillery by 0.5, Fighter and Gas by 1</td>
+    </tr>
 
-	<th>Industry</th>
-	<th>Propaganda</th>
-	<th>3 free Infantry (Stormtruppen) per turn on your capital</th>
-	</tr>
+    <tr>
+        <td>Innovation</td>
+        <td>Armour</td>
+        <td>Unlocks Tank unit</td>
+    </tr>
 
-	<th>Industry</th>
-	<th>Late Fighter</th>
-	<th>Unlocks Late Figher unit</th>
-	</tr>
+    <tr>
+        <td>Innovation</td>
+        <td>Industry</td>
+        <td>Place 2 more units in territories worth 2 or more</td>
+    </tr>
 
-	<th>Naval</th>
-	<th>Sub Warfare</th>
-	<th>Submarines attack at 3 & defend at 2</th>
-	</tr>
+    <tr>
+        <td>Innovation</td>
+        <td>Late Fighter</td>
+        <td>Unlocks Late Figher unit</td>
+    </tr>
 
-	<th>Naval</th>
-	<th>Convoys</th>
-	<th>Destroyers Defend at 3, Cruisers Defend at 4</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Land Offense</td>
+        <td>Creeping Barage</td>
+        <td>Field Artillery attacks at 3</td>
+    </tr>
 
-	<th>Naval</th>
-	<th>Dockyards</th>
-	<th>Reduce BB's and BC's by 2 pus, Reduce rest by 1 pus</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Land Offense</td>
+        <td>Mobile Warfare</td>
+        <td>Cavalry moves at 3</td>
+    </tr>
 
-	<th>Naval</th>
-	<th>Fleet Action</th>
-	<th>Battlecruisers and Battleships attack at 5</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Land Offense</td>
+        <td>Mustard Gas</td>
+        <td>Gas Attacks at 5</td>
+    </tr>	
 
-	<th>Naval</th>
-	<th>Merchant Marine</th>
-	<th>Destroyers, Cruisers, and Battlecruisers move at 3</th>
-	</tr>
+    <tr>
+        <td>Land Defense</td>
+        <td>Bunkers</td>
+        <td>Trenches defend at 1</td>
+    </tr>
 
-	<th>Naval</th>
-	<th>Aircraft Carrier</th>
-	<th>Unlocks Carrier unit</th>
-	</tr>
+    <tr>
+        <td>Land Defense</td>
+        <td>Propaganda</td>
+        <td>3 free Infantry (Stormtruppen) per turn on your capital</td>
+    </tr>
 
-	<th>Land</th>
-	<th>Creeping Barage</th>
-	<th>Field Artillery attacks at 3</th>
-	</tr>
+    <tr>
+        <td>Land Defense</td>
+        <td>Railway Guns</td>
+        <td>Heavy Artillery defends at 5</td>
+    </tr>
 
-	<th>Land</th>
-	<th>Railway Guns</th>
-	<th>Heavy Artillery defends at 5</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Screens and Subs</td>
+        <td>Convoys</td>
+        <td>Destroyers Defend at 3, Cruisers Defend at 4</td>
+    </tr>
 
-	<th>Land</th>
-	<th>mustardGas</th>
-	<th>Gas Attacks at 5</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Screens and Subs</td>
+        <td>Merchant Marine</td>
+        <td>Destroyers, Cruisers, and Battlecruisers move at 3</td>
+    </tr>
 
-	<th>Land</th>
-	<th>Bunkers</th>
-	<th>Trenches defend at 1</th>
-	</tr>
+    <tr bgcolor="BDBDBD">
+        <td>Screens and Subs</td>
+        <td>Sub Warfare</td>
+        <td>Submarines attack at 3 & defend at 2</td>
+    </tr>
 
-	<th>Land</th>
-	<th>Mobile Warfare</th>
-	<th>Cavalry moves at 3</th>
-	</tr>
+    <tr>
+        <td>Capital Ships</td>
+        <td>Aircraft Carrier</td>
+        <td>Unlocks Carrier unit</td>
+    </tr>
 
-	<th>Land</th>
-	<th>Armour</th>
-	<th>Unlocks Tank unit</th>
-	</tr>
+    <tr>
+        <td>Capital Ships</td>
+        <td>Dockyards</td>
+        <td>Reduce BB's and BC's by 2 pus, Reduce rest by 1 pus</td>
+    </tr>
+
+    <tr>
+        <td>Capital Ships</td>
+        <td>Fleet Action</td>
+        <td>Battlecruisers and Battleships attack at 5</td>
+    </tr>
+
 </table>
 <br>
 
