@@ -6685,13 +6685,13 @@
             <unitPlacement unitType="infantry" territory="Luzon" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="Manila" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="Mindanao" quantity="1" owner="USA"/>
-            <unitPlacement unitType="cavalry" territory="Montana" quantity="1" owner="USA"/>
+            <unitPlacement unitType="infantry" territory="Montana" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="New England" quantity="1" owner="USA"/>
             <unitPlacement unitType="cavalry" territory="New Mexico" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="New Orleans" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="New York" quantity="1" owner="USA"/>
             <unitPlacement unitType="Factory" territory="New York" quantity="1" owner="USA"/>
-            <unitPlacement unitType="cavalry" territory="Oregon" quantity="1" owner="USA"/>
+            <unitPlacement unitType="infantry" territory="Oregon" quantity="1" owner="USA"/>
             <unitPlacement unitType="cavalry" territory="Panama" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="Panama" quantity="1" owner="USA"/>
             <unitPlacement unitType="infantry" territory="San Francisco" quantity="1" owner="USA"/>
