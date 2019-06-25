@@ -6538,7 +6538,7 @@
             <unitPlacement unitType="infantry" territory="Cape Town" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Congo" quantity="1" owner="Britain"/>
             <unitPlacement unitType="cavalry" territory="England" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="fighter" territory="England" quantity="2" owner="Britain"/>
+            <unitPlacement unitType="fighter" territory="England" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="England" quantity="4" owner="Britain"/>
             <unitPlacement unitType="field_gun" territory="Gibraltar" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Gibraltar" quantity="1" owner="Britain"/>
@@ -6548,6 +6548,7 @@
             <unitPlacement unitType="infantry" territory="Gold Coast" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="Guadalcanal" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Hong Kong" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="fighter" territory="Ireland" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Jamaica" quantity="1" owner="Britain"/>
             <unitPlacement unitType="cavalry" territory="Kuwait" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Kuwait" quantity="1" owner="Britain"/>
