@@ -6818,7 +6818,7 @@
             <unitPlacement unitType="infantry" territory="Brasilia" quantity="2"/>
             <unitPlacement unitType="cavalry" territory="Buenos Aires" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Buenos Aires" quantity="6"/>
-            <unitPlacement unitType="infantry" territory="Canton" quantity="10"/>
+            <unitPlacement unitType="infantry" territory="Canton" quantity="12"/>
             <unitPlacement unitType="infantry" territory="Caracas" quantity="2"/>
             <unitPlacement unitType="heavy_gun" territory="Castile" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Castile" quantity="2"/>
@@ -6864,7 +6864,7 @@
             <unitPlacement unitType="infantry" territory="Hanguk" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Harbin" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Havana" quantity="6"/>
-            <unitPlacement unitType="infantry" territory="Hebei" quantity="8"/>
+            <unitPlacement unitType="infantry" territory="Hebei" quantity="10"/>
             <unitPlacement unitType="infantry" territory="Henan-Anhui" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Hokkaido" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Holland" quantity="3"/>
@@ -6925,7 +6925,7 @@
             <unitPlacement unitType="infantry" territory="Sakhalin" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Sao Paulo" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Shaanxi" quantity="4"/>
-            <unitPlacement unitType="infantry" territory="Shantung" quantity="8"/>
+            <unitPlacement unitType="infantry" territory="Shantung" quantity="10"/>
             <unitPlacement unitType="infantry" territory="Shanxi" quantity="12"/>
             <unitPlacement unitType="infantry" territory="Shenyang" quantity="10"/>
             <unitPlacement unitType="infantry" territory="Shikoku" quantity="8"/>
