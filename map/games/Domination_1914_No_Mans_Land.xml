@@ -6512,7 +6512,7 @@
             <unitPlacement unitType="infantry" territory="Syria" quantity="1" owner="Turkey"/>
             <unitPlacement unitType="field_gun" territory="Trucial Coast" quantity="1" owner="Turkey"/>
             <unitPlacement unitType="infantry" territory="Trucial Coast" quantity="1" owner="Turkey"/>
-            <unitPlacement unitType="cavalry" territory="Alberta" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="colonial" territory="Alberta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="field_gun" territory="Basra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Basra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="trench" territory="Basra" quantity="1" owner="Britain"/>
