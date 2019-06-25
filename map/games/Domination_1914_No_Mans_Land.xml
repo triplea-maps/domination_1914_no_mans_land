@@ -1434,7 +1434,6 @@
         <connection t1="Sea Zone 20 Labrador Sea" t2="Newfoundland"/>
         <connection t1="Sea Zone 20 Labrador Sea" t2="St. John's Island"/>
         <connection t1="Sea Zone 21 Gulf of St. Lawrence" t2="Sea Zone 22 Mid Atlantic"/>
-        <connection t1="Sea Zone 21 Gulf of St. Lawrence" t2="Sea Zone 29 Mid Atlantic"/>
         <connection t1="Sea Zone 21 Gulf of St. Lawrence" t2="St. John's Island"/>
         <connection t1="Sea Zone 21 Gulf of St. Lawrence" t2="Quebec"/>
         <connection t1="Sea Zone 21 Gulf of St. Lawrence" t2="Nova Scotia"/>
