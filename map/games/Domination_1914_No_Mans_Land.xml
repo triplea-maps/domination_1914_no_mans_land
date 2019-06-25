@@ -6801,11 +6801,11 @@
             <unitPlacement unitType="infantry" territory="Azores" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Canary Islands" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Afghanistan" quantity="10"/>
-            <unitPlacement unitType="infantry" territory="Algarve" quantity="6"/>
+            <unitPlacement unitType="infantry" territory="Algarve" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Amazon" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Amsterdam" quantity="4"/>
             <unitPlacement unitType="trench" territory="Amsterdam" quantity="2"/>
-            <unitPlacement unitType="infantry" territory="Andalusia" quantity="4"/>
+            <unitPlacement unitType="infantry" territory="Andalusia" quantity="6"/>
             <unitPlacement unitType="cavalry" territory="Angola" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Angola" quantity="3"/>
             <unitPlacement unitType="infantry" territory="Anshan" quantity="8"/>
@@ -6903,7 +6903,7 @@
             <unitPlacement unitType="infantry" territory="Navarre" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Nepal" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Nicaragua" quantity="4"/>
-            <unitPlacement unitType="infantry" territory="Norte" quantity="6"/>
+            <unitPlacement unitType="infantry" territory="Norte" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Norway" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Okha" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Oslo" quantity="3"/>
@@ -6946,7 +6946,7 @@
             <unitPlacement unitType="heavy_gun" territory="Toledo" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Toledo" quantity="5"/>
             <unitPlacement unitType="infantry" territory="Uruguay" quantity="2"/>
-            <unitPlacement unitType="infantry" territory="Valencia" quantity="4"/>
+            <unitPlacement unitType="infantry" territory="Valencia" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Venezuela" quantity="3"/>
             <unitPlacement unitType="infantry" territory="Veracruz" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Western Cuba" quantity="4"/>
