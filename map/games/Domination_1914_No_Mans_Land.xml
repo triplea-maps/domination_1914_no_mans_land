@@ -3583,10 +3583,10 @@
             <option name="production" value="6"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Munich" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="3"/>
+            <option name="production" value="4"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Nassau" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="3"/>
+            <option name="production" value="4"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Palau" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
@@ -3595,7 +3595,7 @@
             <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Posen" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="3"/>
+            <option name="production" value="4"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Rhine" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
@@ -3631,7 +3631,7 @@
             <option name="production" value="4"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Westphalia" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="3"/>
+            <option name="production" value="4"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Wurttemburg" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
