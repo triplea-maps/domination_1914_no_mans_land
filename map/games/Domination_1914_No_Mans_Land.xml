@@ -6594,7 +6594,7 @@
             <unitPlacement unitType="cavalry" territory="Azerbaijan" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Belarus" quantity="4" owner="Russia"/>
             <unitPlacement unitType="infantry" territory="Belarus" quantity="3" owner="Russia"/>
-            <unitPlacement unitType="conscript" territory="Bessarabia" quantity="3" owner="Russia"/>
+            <unitPlacement unitType="conscript" territory="Bessarabia" quantity="2" owner="Russia"/>
             <unitPlacement unitType="cavalry" territory="Buryatia" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Caucasus" quantity="1" owner="Russia"/>
             <unitPlacement unitType="infantry" territory="Caucasus" quantity="1" owner="Russia"/>
@@ -6630,7 +6630,7 @@
             <unitPlacement unitType="conscript" territory="Murmansk" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Murmansk" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Naryan-Mar" quantity="2" owner="Russia"/>
-            <unitPlacement unitType="conscript" territory="Nizhni-Novgorod" quantity="2" owner="Russia"/>
+            <unitPlacement unitType="conscript" territory="Nizhni-Novgorod" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Nizhni-Novgorod" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Novgorod" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Novosibirsk" quantity="1" owner="Russia"/>
@@ -6641,7 +6641,7 @@
             <unitPlacement unitType="Factory" territory="Omsk" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Perm" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Primorsky" quantity="2" owner="Russia"/>
-            <unitPlacement unitType="conscript" territory="Pskov" quantity="3" owner="Russia"/>
+            <unitPlacement unitType="conscript" territory="Pskov" quantity="2" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Ryazan" quantity="2" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Ryazan" quantity="1" owner="Russia"/>
             <unitPlacement unitType="infantry" territory="Ryazan" quantity="1" owner="Russia"/>
@@ -6659,7 +6659,7 @@
             <unitPlacement unitType="Factory" territory="Vladivostok" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Vladivostok" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Volgograd" quantity="1" owner="Russia"/>
-            <unitPlacement unitType="infantry" territory="Volgograd" quantity="2" owner="Russia"/>
+            <unitPlacement unitType="infantry" territory="Volgograd" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Vologda" quantity="3" owner="Russia"/>
             <unitPlacement unitType="Factory" territory="Warsaw" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Warsaw" quantity="1" owner="Russia"/>
