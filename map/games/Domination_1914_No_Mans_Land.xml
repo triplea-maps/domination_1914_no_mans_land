@@ -6408,7 +6408,7 @@
             <unitPlacement unitType="Factory" territory="Greece" quantity="1" owner="Serbia"/>
             <unitPlacement unitType="field_gun" territory="Greece" quantity="1" owner="Serbia"/>
             <unitPlacement unitType="fighter" territory="Greece" quantity="1" owner="Serbia"/>
-            <unitPlacement unitType="infantry" territory="Greece" quantity="4" owner="Serbia"/>
+            <unitPlacement unitType="infantry" territory="Greece" quantity="3" owner="Serbia"/>
             <unitPlacement unitType="infantry" territory="Macedonia" quantity="3" owner="Serbia"/>
             <unitPlacement unitType="field_gun" territory="Montenegro" quantity="1" owner="Serbia"/>
             <unitPlacement unitType="infantry" territory="Montenegro" quantity="2" owner="Serbia"/>
@@ -6528,7 +6528,6 @@
             <unitPlacement unitType="Factory" territory="Cairo-Suez" quantity="1" owner="Britain"/>
             <unitPlacement unitType="field_gun" territory="Cairo-Suez" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Cairo-Suez" quantity="2" owner="Britain"/>
-            <unitPlacement unitType="cavalry" territory="Calcutta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="Factory" territory="Calcutta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Calcutta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Cape Colony" quantity="1" owner="Britain"/>
@@ -6574,7 +6573,7 @@
             <unitPlacement unitType="field_gun" territory="Quebec" quantity="1" owner="Britain"/>
             <unitPlacement unitType="cavalry" territory="Queensland" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="Saskatchewan" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="infantry" territory="Scotland" quantity="4" owner="Britain"/>
+            <unitPlacement unitType="infantry" territory="Scotland" quantity="3" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Shanghai 3" quantity="2" owner="Britain"/>
             <unitPlacement unitType="Factory" territory="Singapore" quantity="1" owner="Britain"/>
             <unitPlacement unitType="field_gun" territory="Singapore" quantity="1" owner="Britain"/>
@@ -6589,7 +6588,6 @@
             <unitPlacement unitType="colonial" territory="Victoria" quantity="1" owner="Britain"/>
             <unitPlacement unitType="field_gun" territory="Wales" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Wales" quantity="2" owner="Britain"/>
-            <unitPlacement unitType="cavalry" territory="Western Australia" quantity="1" owner="Britain"/>
             <unitPlacement unitType="conscript" territory="Archangelsk" quantity="1" owner="Russia"/>
             <unitPlacement unitType="cavalry" territory="Azerbaijan" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Belarus" quantity="4" owner="Russia"/>
