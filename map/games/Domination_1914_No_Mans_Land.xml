@@ -6451,13 +6451,13 @@
             <unitPlacement unitType="infantry" territory="Latium" quantity="2" owner="Italy"/>
             <unitPlacement unitType="infantry" territory="Milan" quantity="2" owner="Italy"/>
             <unitPlacement unitType="heavy_gun" territory="Naples" quantity="1" owner="Italy"/>
-            <unitPlacement unitType="infantry" territory="Naples" quantity="3" owner="Italy"/>
+            <unitPlacement unitType="infantry" territory="Naples" quantity="2" owner="Italy"/>
             <unitPlacement unitType="Factory" territory="Piedmont" quantity="1" owner="Italy"/>
             <unitPlacement unitType="heavy_gun" territory="Piedmont" quantity="1" owner="Italy"/>
             <unitPlacement unitType="infantry" territory="Piedmont" quantity="3" owner="Italy"/>
             <unitPlacement unitType="Factory" territory="Rome" quantity="1" owner="Italy"/>
             <unitPlacement unitType="field_gun" territory="Rome" quantity="1" owner="Italy"/>
-            <unitPlacement unitType="infantry" territory="Rome" quantity="3" owner="Italy"/>
+            <unitPlacement unitType="infantry" territory="Rome" quantity="2" owner="Italy"/>
             <unitPlacement unitType="infantry" territory="Sardinia" quantity="2" owner="Italy"/>
             <unitPlacement unitType="field_gun" territory="Sicily" quantity="1" owner="Italy"/>
             <unitPlacement unitType="infantry" territory="Sicily" quantity="2" owner="Italy"/>
