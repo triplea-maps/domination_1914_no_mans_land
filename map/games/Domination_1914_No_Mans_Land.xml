@@ -2702,8 +2702,8 @@
             <result resourceOrUnit="gas" quantity="1"/>
         </productionRule>
         <productionRule name="buygas_w">
-            <cost resource="PUs" quantity="3"/>
-            <result resourceOrUnit="gas" quantity="1"/>
+            <cost resource="PUs" quantity="7"/>
+            <result resourceOrUnit="gas" quantity="2"/>
         </productionRule>
         <productionRule name="buyheavy_gun">
             <cost resource="PUs" quantity="5"/>
@@ -7638,7 +7638,7 @@
     <tr bgcolor="BDBDBD">
         <td>Economy</td>
         <td>Working Women</td>
-        <td>Reduces Field and Heavy Artillery by 0.5, Fighter and Gas by 1</td>
+        <td>Reduces Gas, Field, and Heavy Artillery by 0.5; Fighter by 2</td>
     </tr>
 
     <tr>
