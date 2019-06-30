@@ -6305,7 +6305,7 @@
             <unitPlacement unitType="infantry" territory="Berlin" quantity="4" owner="Germany"/>
             <unitPlacement unitType="field_gun" territory="Brandenburg" quantity="1" owner="Germany"/>
             <unitPlacement unitType="infantry" territory="Brandenburg" quantity="4" owner="Germany"/>
-            <unitPlacement unitType="infantry" territory="Caroline Islands" quantity="1" owner="Germany"/>
+            <unitPlacement unitType="field_gun" territory="Caroline Islands" quantity="1" owner="Germany"/>
             <unitPlacement unitType="Factory" territory="Dar es Salaam" quantity="1" owner="Germany"/>
             <unitPlacement unitType="field_gun" territory="Dar es Salaam" quantity="1" owner="Germany"/>
             <unitPlacement unitType="infantry" territory="Dar es Salaam" quantity="1" owner="Germany"/>
@@ -6555,8 +6555,7 @@
             <unitPlacement unitType="field_gun" territory="London" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="London" quantity="1" owner="Britain"/>
             <unitPlacement unitType="cavalry" territory="Malaya" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="colonial" territory="Manitoba" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="field_gun" territory="New South Wales" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="colonial" territory="Manitoba" quantity="1" owner="Britain"/>            
             <unitPlacement unitType="colonial" territory="New Zealand" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="Newfoundland" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="Nigeria" quantity="1" owner="Britain"/>
@@ -6583,6 +6582,7 @@
             <unitPlacement unitType="infantry" territory="Southern Rhodesia" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="St. John's Island" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="Sydney-Canberra" quantity="2" owner="Britain"/>
+            <unitPlacement unitType="field_gun" territory="Sydney-Canberra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="Factory" territory="Sydney-Canberra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Uganda" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Upper Egypt" quantity="1" owner="Britain"/>
@@ -7451,7 +7451,7 @@
 	<td>4</td>
 	<td>1</td>
 	<td>2</td>
-	<td>5</td>
+	<td>6</td>
 	<td>3</td>
 	<td>Supports, Blitz, attainable through tech</td>
 	</tr>
@@ -7573,7 +7573,7 @@
 	<td>2</td>
 	<td>3</td>
 	<td>2</td>
-	<td>13</td>
+	<td>12</td>
 	<td>attainable through tech</td>
 	</tr>
 
