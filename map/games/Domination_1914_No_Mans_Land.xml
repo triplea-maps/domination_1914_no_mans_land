@@ -4739,7 +4739,7 @@
             <option name="production" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Formosa" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="4"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Fukien" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
@@ -6810,7 +6810,7 @@
             <unitPlacement unitType="field_gun" territory="Argentina" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Argentina" quantity="3"/>
             <unitPlacement unitType="infantry" territory="Baja-Sonora" quantity="2"/>
-            <unitPlacement unitType="infantry" territory="Baluchistan" quantity="2"/>
+            <unitPlacement unitType="infantry" territory="Baluchistan" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Bhutan" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Bolivia" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Borneo" quantity="6"/>
@@ -6820,10 +6820,10 @@
             <unitPlacement unitType="infantry" territory="Canton" quantity="12"/>
             <unitPlacement unitType="infantry" territory="Caracas" quantity="6"/>
             <unitPlacement unitType="heavy_gun" territory="Castile" quantity="1"/>
-            <unitPlacement unitType="infantry" territory="Castile" quantity="2"/>
+            <unitPlacement unitType="infantry" territory="Castile" quantity="3"/>
             <unitPlacement unitType="field_gun" territory="Catalonia" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Catalonia" quantity="3"/>
-            <unitPlacement unitType="infantry" territory="Celebes" quantity="6"/>
+            <unitPlacement unitType="infantry" territory="Celebes" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Central Brazil" quantity="14"/>
             <unitPlacement unitType="infantry" territory="Ceuta" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Changchun" quantity="6"/>
@@ -6858,7 +6858,7 @@
             <unitPlacement unitType="field_gun" territory="Guatemala" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Guatemala" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Guizhou" quantity="8"/>
-            <unitPlacement unitType="infantry" territory="Hainan" quantity="4"/>
+            <unitPlacement unitType="infantry" territory="Hainan" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Haiti" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Hanguk" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Harbin" quantity="6"/>
@@ -6885,7 +6885,7 @@
             <unitPlacement unitType="cavalry" territory="La Paz" quantity="3"/>
             <unitPlacement unitType="field_gun" territory="La Paz" quantity="1"/>
             <unitPlacement unitType="infantry" territory="La Paz" quantity="5"/>
-            <unitPlacement unitType="infantry" territory="Leon" quantity="4"/>
+            <unitPlacement unitType="infantry" territory="Leon" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Lima" quantity="6"/>
             <unitPlacement unitType="heavy_gun" territory="Lisbon" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Lisbon" quantity="12"/>
@@ -6904,7 +6904,7 @@
             <unitPlacement unitType="infantry" territory="Nicaragua" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Norte" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Norway" quantity="2"/>
-            <unitPlacement unitType="infantry" territory="Okha" quantity="8"/>
+            <unitPlacement unitType="infantry" territory="Okha" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Oslo" quantity="3"/>
             <unitPlacement unitType="cavalry" territory="Outer Mongolia" quantity="14"/>
             <unitPlacement unitType="infantry" territory="Paraguay" quantity="2"/>
