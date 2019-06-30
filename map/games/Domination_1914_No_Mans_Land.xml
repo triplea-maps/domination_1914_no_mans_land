@@ -3009,24 +3009,24 @@
     </production>
     <technology>
         <technologies>
-            <techname name="victoryBonds"/>
-            <techname name="industry"/>
-            <techname name="workingWomen"/>
             <techname name="science"/>
-            <techname name="propaganda"/>
+            <techname name="victoryBonds"/>            
+            <techname name="workingWomen"/>
+            <techname name="armour"/>
+            <techname name="industry"/>            
             <techname name="lateFighter"/>
-            <techname name="subwarfare"/>
+            <techname name="creepingBarage"/>
+            <techname name="mobileWarfare"/>
+            <techname name="mustardGas"/>            
+            <techname name="bunkers"/>
+            <techname name="propaganda"/>
+            <techname name="railwayGuns"/>
             <techname name="convoys"/>
+            <techname name="merchantmarine"/>
+            <techname name="subwarfare"/>
+            <techname name="aircraftCarrier"/>
             <techname name="dockyards"/>
             <techname name="fleetaction"/>
-            <techname name="merchantmarine"/>
-            <techname name="aircraftCarrier"/>
-            <techname name="creepingBarage"/>
-            <techname name="railwayGuns"/>
-            <techname name="mustardGas"/>
-            <techname name="bunkers"/>
-            <techname name="mobileWarfare"/>
-            <techname name="armour"/>
         </technologies>
         <playerTech player="Germany">
             <category name="Economy">
