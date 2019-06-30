@@ -2642,7 +2642,7 @@
     <production>
         <!-- Unit Production Cost -->
         <productionRule name="buyaaGun">
-            <cost resource="PUs" quantity="6"/>
+            <cost resource="PUs" quantity="5"/>
             <result resourceOrUnit="aaGun" quantity="1"/>
         </productionRule>
         <productionRule name="buybattlecruiser">
@@ -7401,7 +7401,7 @@
 	<td>0</td>
 	<td>1</td>
 	<td>1</td>
-	<td>6</td>
+	<td>5</td>
 	<td>3</td>
 	<td>1d6 vs each attacking plane</td>
 	</tr>
