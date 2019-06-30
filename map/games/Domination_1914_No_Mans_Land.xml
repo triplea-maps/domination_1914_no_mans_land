@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Domination 1914 No Man's Land" version="1.3"/>
+    <info name="Domination 1914 No Man's Land" version="1.4"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.5"/>
     <diceSides value="6"/>
@@ -3967,7 +3967,7 @@
             <option name="production" value="0"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Alberta" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="0"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Andaman Islands" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="0"/>
@@ -4139,7 +4139,7 @@
             <option name="production" value="0"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Manitoba" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="0"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Nagpur" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
@@ -4229,7 +4229,7 @@
             <option name="production" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Saskatchewan" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="0"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Scotland" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
