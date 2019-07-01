@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Domination 1914 No Man's Land" version="1.3"/>
+    <info name="Domination 1914 No Man's Land" version="1.4"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.5"/>
     <diceSides value="6"/>
@@ -2642,7 +2642,7 @@
     <production>
         <!-- Unit Production Cost -->
         <productionRule name="buyaaGun">
-            <cost resource="PUs" quantity="6"/>
+            <cost resource="PUs" quantity="5"/>
             <result resourceOrUnit="aaGun" quantity="1"/>
         </productionRule>
         <productionRule name="buybattlecruiser">
@@ -2702,8 +2702,8 @@
             <result resourceOrUnit="gas" quantity="1"/>
         </productionRule>
         <productionRule name="buygas_w">
-            <cost resource="PUs" quantity="3"/>
-            <result resourceOrUnit="gas" quantity="1"/>
+            <cost resource="PUs" quantity="7"/>
+            <result resourceOrUnit="gas" quantity="2"/>
         </productionRule>
         <productionRule name="buyheavy_gun">
             <cost resource="PUs" quantity="5"/>
@@ -3009,24 +3009,24 @@
     </production>
     <technology>
         <technologies>
-            <techname name="victoryBonds"/>
-            <techname name="industry"/>
-            <techname name="workingWomen"/>
             <techname name="science"/>
-            <techname name="propaganda"/>
+            <techname name="victoryBonds"/>            
+            <techname name="workingWomen"/>
+            <techname name="armour"/>
+            <techname name="industry"/>            
             <techname name="lateFighter"/>
-            <techname name="subwarfare"/>
+            <techname name="creepingBarage"/>
+            <techname name="mobileWarfare"/>
+            <techname name="mustardGas"/>            
+            <techname name="bunkers"/>
+            <techname name="propaganda"/>
+            <techname name="railwayGuns"/>
             <techname name="convoys"/>
+            <techname name="merchantmarine"/>
+            <techname name="subwarfare"/>
+            <techname name="aircraftCarrier"/>
             <techname name="dockyards"/>
             <techname name="fleetaction"/>
-            <techname name="merchantmarine"/>
-            <techname name="aircraftCarrier"/>
-            <techname name="creepingBarage"/>
-            <techname name="railwayGuns"/>
-            <techname name="mustardGas"/>
-            <techname name="bunkers"/>
-            <techname name="mobileWarfare"/>
-            <techname name="armour"/>
         </technologies>
         <playerTech player="Germany">
             <category name="Economy">
@@ -3583,10 +3583,10 @@
             <option name="production" value="6"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Munich" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="3"/>
+            <option name="production" value="4"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Nassau" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="3"/>
+            <option name="production" value="4"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Palau" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
@@ -3595,7 +3595,7 @@
             <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Posen" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="3"/>
+            <option name="production" value="4"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Rhine" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
@@ -3631,7 +3631,7 @@
             <option name="production" value="4"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Westphalia" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="3"/>
+            <option name="production" value="4"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Wurttemburg" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
@@ -3967,7 +3967,7 @@
             <option name="production" value="0"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Alberta" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="0"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Andaman Islands" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="0"/>
@@ -4139,7 +4139,7 @@
             <option name="production" value="0"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Manitoba" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="0"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Nagpur" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
@@ -4229,7 +4229,7 @@
             <option name="production" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Saskatchewan" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="0"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Scotland" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
@@ -4739,7 +4739,7 @@
             <option name="production" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Formosa" javaClass="TerritoryAttachment" type="territory">
-            <option name="production" value="4"/>
+            <option name="production" value="3"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Fukien" javaClass="TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
@@ -6305,7 +6305,7 @@
             <unitPlacement unitType="infantry" territory="Berlin" quantity="4" owner="Germany"/>
             <unitPlacement unitType="field_gun" territory="Brandenburg" quantity="1" owner="Germany"/>
             <unitPlacement unitType="infantry" territory="Brandenburg" quantity="4" owner="Germany"/>
-            <unitPlacement unitType="infantry" territory="Caroline Islands" quantity="1" owner="Germany"/>
+            <unitPlacement unitType="field_gun" territory="Caroline Islands" quantity="1" owner="Germany"/>
             <unitPlacement unitType="Factory" territory="Dar es Salaam" quantity="1" owner="Germany"/>
             <unitPlacement unitType="field_gun" territory="Dar es Salaam" quantity="1" owner="Germany"/>
             <unitPlacement unitType="infantry" territory="Dar es Salaam" quantity="1" owner="Germany"/>
@@ -6408,7 +6408,7 @@
             <unitPlacement unitType="Factory" territory="Greece" quantity="1" owner="Serbia"/>
             <unitPlacement unitType="field_gun" territory="Greece" quantity="1" owner="Serbia"/>
             <unitPlacement unitType="fighter" territory="Greece" quantity="1" owner="Serbia"/>
-            <unitPlacement unitType="infantry" territory="Greece" quantity="4" owner="Serbia"/>
+            <unitPlacement unitType="infantry" territory="Greece" quantity="3" owner="Serbia"/>
             <unitPlacement unitType="infantry" territory="Macedonia" quantity="3" owner="Serbia"/>
             <unitPlacement unitType="field_gun" territory="Montenegro" quantity="1" owner="Serbia"/>
             <unitPlacement unitType="infantry" territory="Montenegro" quantity="2" owner="Serbia"/>
@@ -6451,13 +6451,13 @@
             <unitPlacement unitType="infantry" territory="Latium" quantity="2" owner="Italy"/>
             <unitPlacement unitType="infantry" territory="Milan" quantity="2" owner="Italy"/>
             <unitPlacement unitType="heavy_gun" territory="Naples" quantity="1" owner="Italy"/>
-            <unitPlacement unitType="infantry" territory="Naples" quantity="3" owner="Italy"/>
+            <unitPlacement unitType="infantry" territory="Naples" quantity="2" owner="Italy"/>
             <unitPlacement unitType="Factory" territory="Piedmont" quantity="1" owner="Italy"/>
             <unitPlacement unitType="heavy_gun" territory="Piedmont" quantity="1" owner="Italy"/>
             <unitPlacement unitType="infantry" territory="Piedmont" quantity="3" owner="Italy"/>
             <unitPlacement unitType="Factory" territory="Rome" quantity="1" owner="Italy"/>
             <unitPlacement unitType="field_gun" territory="Rome" quantity="1" owner="Italy"/>
-            <unitPlacement unitType="infantry" territory="Rome" quantity="3" owner="Italy"/>
+            <unitPlacement unitType="infantry" territory="Rome" quantity="2" owner="Italy"/>
             <unitPlacement unitType="infantry" territory="Sardinia" quantity="2" owner="Italy"/>
             <unitPlacement unitType="field_gun" territory="Sicily" quantity="1" owner="Italy"/>
             <unitPlacement unitType="infantry" territory="Sicily" quantity="2" owner="Italy"/>
@@ -6528,7 +6528,6 @@
             <unitPlacement unitType="Factory" territory="Cairo-Suez" quantity="1" owner="Britain"/>
             <unitPlacement unitType="field_gun" territory="Cairo-Suez" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Cairo-Suez" quantity="2" owner="Britain"/>
-            <unitPlacement unitType="cavalry" territory="Calcutta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="Factory" territory="Calcutta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Calcutta" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Cape Colony" quantity="1" owner="Britain"/>
@@ -6555,8 +6554,7 @@
             <unitPlacement unitType="field_gun" territory="London" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="London" quantity="1" owner="Britain"/>
             <unitPlacement unitType="cavalry" territory="Malaya" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="colonial" territory="Manitoba" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="field_gun" territory="New South Wales" quantity="1" owner="Britain"/>
+            <unitPlacement unitType="colonial" territory="Manitoba" quantity="1" owner="Britain"/>            
             <unitPlacement unitType="colonial" territory="New Zealand" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="Newfoundland" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="Nigeria" quantity="1" owner="Britain"/>
@@ -6575,7 +6573,7 @@
             <unitPlacement unitType="field_gun" territory="Quebec" quantity="1" owner="Britain"/>
             <unitPlacement unitType="cavalry" territory="Queensland" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="Saskatchewan" quantity="1" owner="Britain"/>
-            <unitPlacement unitType="infantry" territory="Scotland" quantity="4" owner="Britain"/>
+            <unitPlacement unitType="infantry" territory="Scotland" quantity="3" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Shanghai 3" quantity="2" owner="Britain"/>
             <unitPlacement unitType="Factory" territory="Singapore" quantity="1" owner="Britain"/>
             <unitPlacement unitType="field_gun" territory="Singapore" quantity="1" owner="Britain"/>
@@ -6583,18 +6581,18 @@
             <unitPlacement unitType="infantry" territory="Southern Rhodesia" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="St. John's Island" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="Sydney-Canberra" quantity="2" owner="Britain"/>
+            <unitPlacement unitType="field_gun" territory="Sydney-Canberra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="Factory" territory="Sydney-Canberra" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Uganda" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Upper Egypt" quantity="1" owner="Britain"/>
             <unitPlacement unitType="colonial" territory="Victoria" quantity="1" owner="Britain"/>
             <unitPlacement unitType="field_gun" territory="Wales" quantity="1" owner="Britain"/>
             <unitPlacement unitType="infantry" territory="Wales" quantity="2" owner="Britain"/>
-            <unitPlacement unitType="cavalry" territory="Western Australia" quantity="1" owner="Britain"/>
             <unitPlacement unitType="conscript" territory="Archangelsk" quantity="1" owner="Russia"/>
             <unitPlacement unitType="cavalry" territory="Azerbaijan" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Belarus" quantity="4" owner="Russia"/>
             <unitPlacement unitType="infantry" territory="Belarus" quantity="3" owner="Russia"/>
-            <unitPlacement unitType="conscript" territory="Bessarabia" quantity="3" owner="Russia"/>
+            <unitPlacement unitType="conscript" territory="Bessarabia" quantity="2" owner="Russia"/>
             <unitPlacement unitType="cavalry" territory="Buryatia" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Caucasus" quantity="1" owner="Russia"/>
             <unitPlacement unitType="infantry" territory="Caucasus" quantity="1" owner="Russia"/>
@@ -6630,7 +6628,7 @@
             <unitPlacement unitType="conscript" territory="Murmansk" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Murmansk" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Naryan-Mar" quantity="2" owner="Russia"/>
-            <unitPlacement unitType="conscript" territory="Nizhni-Novgorod" quantity="2" owner="Russia"/>
+            <unitPlacement unitType="conscript" territory="Nizhni-Novgorod" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Nizhni-Novgorod" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Novgorod" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Novosibirsk" quantity="1" owner="Russia"/>
@@ -6641,7 +6639,7 @@
             <unitPlacement unitType="Factory" territory="Omsk" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Perm" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Primorsky" quantity="2" owner="Russia"/>
-            <unitPlacement unitType="conscript" territory="Pskov" quantity="3" owner="Russia"/>
+            <unitPlacement unitType="conscript" territory="Pskov" quantity="2" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Ryazan" quantity="2" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Ryazan" quantity="1" owner="Russia"/>
             <unitPlacement unitType="infantry" territory="Ryazan" quantity="1" owner="Russia"/>
@@ -6659,7 +6657,7 @@
             <unitPlacement unitType="Factory" territory="Vladivostok" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Vladivostok" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Volgograd" quantity="1" owner="Russia"/>
-            <unitPlacement unitType="infantry" territory="Volgograd" quantity="2" owner="Russia"/>
+            <unitPlacement unitType="infantry" territory="Volgograd" quantity="1" owner="Russia"/>
             <unitPlacement unitType="conscript" territory="Vologda" quantity="3" owner="Russia"/>
             <unitPlacement unitType="Factory" territory="Warsaw" quantity="1" owner="Russia"/>
             <unitPlacement unitType="field_gun" territory="Warsaw" quantity="1" owner="Russia"/>
@@ -6812,7 +6810,7 @@
             <unitPlacement unitType="field_gun" territory="Argentina" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Argentina" quantity="3"/>
             <unitPlacement unitType="infantry" territory="Baja-Sonora" quantity="2"/>
-            <unitPlacement unitType="infantry" territory="Baluchistan" quantity="2"/>
+            <unitPlacement unitType="infantry" territory="Baluchistan" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Bhutan" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Bolivia" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Borneo" quantity="6"/>
@@ -6822,10 +6820,10 @@
             <unitPlacement unitType="infantry" territory="Canton" quantity="12"/>
             <unitPlacement unitType="infantry" territory="Caracas" quantity="6"/>
             <unitPlacement unitType="heavy_gun" territory="Castile" quantity="1"/>
-            <unitPlacement unitType="infantry" territory="Castile" quantity="2"/>
+            <unitPlacement unitType="infantry" territory="Castile" quantity="3"/>
             <unitPlacement unitType="field_gun" territory="Catalonia" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Catalonia" quantity="3"/>
-            <unitPlacement unitType="infantry" territory="Celebes" quantity="6"/>
+            <unitPlacement unitType="infantry" territory="Celebes" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Central Brazil" quantity="14"/>
             <unitPlacement unitType="infantry" territory="Ceuta" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Changchun" quantity="6"/>
@@ -6860,7 +6858,7 @@
             <unitPlacement unitType="field_gun" territory="Guatemala" quantity="1"/>
             <unitPlacement unitType="infantry" territory="Guatemala" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Guizhou" quantity="8"/>
-            <unitPlacement unitType="infantry" territory="Hainan" quantity="4"/>
+            <unitPlacement unitType="infantry" territory="Hainan" quantity="2"/>
             <unitPlacement unitType="infantry" territory="Haiti" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Hanguk" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Harbin" quantity="6"/>
@@ -6887,7 +6885,7 @@
             <unitPlacement unitType="cavalry" territory="La Paz" quantity="3"/>
             <unitPlacement unitType="field_gun" territory="La Paz" quantity="1"/>
             <unitPlacement unitType="infantry" territory="La Paz" quantity="5"/>
-            <unitPlacement unitType="infantry" territory="Leon" quantity="4"/>
+            <unitPlacement unitType="infantry" territory="Leon" quantity="6"/>
             <unitPlacement unitType="infantry" territory="Lima" quantity="6"/>
             <unitPlacement unitType="heavy_gun" territory="Lisbon" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Lisbon" quantity="12"/>
@@ -6906,7 +6904,7 @@
             <unitPlacement unitType="infantry" territory="Nicaragua" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Norte" quantity="8"/>
             <unitPlacement unitType="infantry" territory="Norway" quantity="2"/>
-            <unitPlacement unitType="infantry" territory="Okha" quantity="8"/>
+            <unitPlacement unitType="infantry" territory="Okha" quantity="4"/>
             <unitPlacement unitType="infantry" territory="Oslo" quantity="3"/>
             <unitPlacement unitType="cavalry" territory="Outer Mongolia" quantity="14"/>
             <unitPlacement unitType="infantry" territory="Paraguay" quantity="2"/>
@@ -7401,7 +7399,7 @@
 	<td>0</td>
 	<td>1</td>
 	<td>1</td>
-	<td>6</td>
+	<td>5</td>
 	<td>3</td>
 	<td>1d6 vs each attacking plane</td>
 	</tr>
@@ -7451,7 +7449,7 @@
 	<td>4</td>
 	<td>1</td>
 	<td>2</td>
-	<td>5</td>
+	<td>6</td>
 	<td>3</td>
 	<td>Supports, Blitz, attainable through tech</td>
 	</tr>
@@ -7573,7 +7571,7 @@
 	<td>2</td>
 	<td>3</td>
 	<td>2</td>
-	<td>13</td>
+	<td>12</td>
 	<td>attainable through tech</td>
 	</tr>
 
@@ -7640,7 +7638,7 @@
     <tr bgcolor="BDBDBD">
         <td>Economy</td>
         <td>Working Women</td>
-        <td>Reduces Field and Heavy Artillery by 0.5, Fighter and Gas by 1</td>
+        <td>Reduces Gas, Field, and Heavy Artillery by 0.5; Fighter by 2</td>
     </tr>
 
     <tr>
