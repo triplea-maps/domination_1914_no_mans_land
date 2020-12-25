@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Domination 1914 No Man's Land" version="1.4"/>
+    <info name="Domination 1914 No Man's Land" version="1.4.1"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.5"/>
     <diceSides value="6"/>
