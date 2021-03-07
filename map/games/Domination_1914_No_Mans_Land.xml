@@ -3010,7 +3010,7 @@
     <technology>
         <technologies>
             <techname name="science"/>
-            <techname name="victoryBonds"/>            
+            <techname name="warBonds"/>            
             <techname name="workingWomen"/>
             <techname name="armour"/>
             <techname name="industry"/>            
@@ -3031,7 +3031,7 @@
         <playerTech player="Germany">
             <category name="Economy">
                 <tech name="science"/>
-                <tech name="victoryBonds"/>                
+                <tech name="warBonds"/>                
                 <tech name="workingWomen"/>                
             </category>
             <category name="Innovation">                              
@@ -3063,7 +3063,7 @@
         <playerTech player="France">
             <category name="Economy">
                 <tech name="science"/>
-                <tech name="victoryBonds"/>                
+                <tech name="warBonds"/>                
                 <tech name="workingWomen"/>                
             </category>
             <category name="Innovation">                              
@@ -3095,7 +3095,7 @@
         <playerTech player="Austria">
             <category name="Economy">
                 <tech name="science"/>
-                <tech name="victoryBonds"/>                
+                <tech name="warBonds"/>                
                 <tech name="workingWomen"/>                
             </category>
             <category name="Innovation">                              
@@ -3127,7 +3127,7 @@
         <playerTech player="Italy">
             <category name="Economy">
                 <tech name="science"/>
-                <tech name="victoryBonds"/>                
+                <tech name="warBonds"/>                
                 <tech name="workingWomen"/>                
             </category>
             <category name="Innovation">                              
@@ -3159,7 +3159,7 @@
         <playerTech player="Turkey">
             <category name="Economy">
                 <tech name="science"/>
-                <tech name="victoryBonds"/>                
+                <tech name="warBonds"/>                
                 <tech name="workingWomen"/>                
             </category>
             <category name="Innovation">                              
@@ -3191,7 +3191,7 @@
         <playerTech player="Britain">
             <category name="Economy">
                 <tech name="science"/>
-                <tech name="victoryBonds"/>                
+                <tech name="warBonds"/>                
                 <tech name="workingWomen"/>                
             </category>
             <category name="Innovation">                              
@@ -3223,7 +3223,7 @@
         <playerTech player="Russia">
             <category name="Economy">
                 <tech name="science"/>
-                <tech name="victoryBonds"/>                
+                <tech name="warBonds"/>                
                 <tech name="workingWomen"/>                
             </category>
             <category name="Innovation">                              
@@ -3255,7 +3255,7 @@
         <playerTech player="Communists">
             <category name="Economy">
                 <tech name="science"/>
-                <tech name="victoryBonds"/>                
+                <tech name="warBonds"/>                
                 <tech name="workingWomen"/>                
             </category>
             <category name="Innovation">                              
@@ -3287,7 +3287,7 @@
         <playerTech player="USA">
             <category name="Economy">
                 <tech name="science"/>
-                <tech name="victoryBonds"/>                
+                <tech name="warBonds"/>                
                 <tech name="workingWomen"/>                
             </category>
             <category name="Innovation">                              
@@ -5898,7 +5898,7 @@
             <option name="when" value="after:USATechActivation"/>
         </attachment>
         <!-- Tech Ability Attachment -->
-        <attachment name="techAbilityAttachment" attachTo="victoryBonds" javaClass="TechAbilityAttachment" type="technology">
+        <attachment name="techAbilityAttachment" attachTo="warBonds" javaClass="TechAbilityAttachment" type="technology">
             <option name="warBondDiceSides" value="6"/>
             <option name="warBondDiceNumber" value="2"/>
         </attachment>
