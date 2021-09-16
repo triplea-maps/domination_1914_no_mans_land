@@ -1,0 +1,540 @@
+<html>
+<body bgcolor="DADADA" align="center">
+
+<div style="text-align: center;">
+<br>
+<img src="mapScreenshot.png"/>
+  	
+<br><span style="font-size:280%;color:000000;"></span><b><span style="font-size:280%;color:660000;">Domination 1914 No Man's Land</span></b><span style="font-size:280%;color:000000;"></span>
+<br>
+
+<br><span style="font-size:120%;000000"colspan="2"><b>Version 1.4</b></span></th>
+<br>
+<br>
+
+<b>Fall 1914. With the death of the Arch Duke Franz Ferdinand, Europe is plunged into war. </b> <br>
+<b>Titantic armies never seen before muster for battle. </b> <br>
+<b>Colonial forces of the great powers skirmish around the world.</b> <br>
+<b>Soldiers of all sides are told they will be home for Christmas</b> <br>
+<b>No one suspects they will battle for years over a few miles of no mans land.</b> <br>
+
+<br><span style="font-size:120%"><b>Modded by Imbaked</b></span>
+<br><span style="font-size:120%"><b>Updated by Redrum</b></span>
+<br>Game Design by TripleK and Surtur
+<br>Engine Support by Veqryn
+<br>Relief Tiles by Siege
+<br>
+
+<div style="text-align: center;">
+<br>==========================================================
+<br><span style="font-size:200%"><b>Features</b></span>
+<br>==========================================================
+<br>
+
+<br> The ruleset of the "AA-50 rules" (ww2v3) of a well known board game is used as a basis. Deviations, extensions and exceptions from these are all listed in these Game Notes.<br>
+<br> Submarine Rules - Submarines may retreat before the battle unless a destroyer is present. Air cannot hit subs unless destroyer is present. Subs do not block.<br>
+<br> Transport Rules - Transports do not participate in battles and die if attacked and undefended. Cannot be taken as casualties. Transports do not block.<br>
+<br> Bombard Rules - Bombard is restrictd by the number of units landing. Bombard casualties DO return fire<br>
+<br> Trench Rules - 3 trenches per territory per turn can be placed. There is no limit to how many you can buy. There is no overall limit of trenches in a territory.<br>
+<br> Gas Rules - Suicides after one round of attack, does not fire and cannot be taken as casualties on defense.<br>
+<br> Trenches cannot be taken as casualties from hits caused by Gas.<br>
+<br> Casualties from Gas do not return fire.<br>
+<br> Communists are set to neutral towards Germany, Austria and Turkey while still being on the same side. This means they cannot co-occupy a territory and do not liberate territory for the other.<br>
+<br>
+
+<table border="1"bgcolor="ABABAB">
+	<tr>
+	<th style="font-size:110%;000000"bgcolor="FEECE2"colspan="2">Alliances</th>
+	</tr>
+	<tr>
+	<th bgcolor="ABABAB">Centrals</th>
+	<th bgcolor="BDBDBD">Entente</th>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Germany</td>
+	<td bgcolor="BDBDBD">France</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Austria</td>
+	<td bgcolor="BDBDBD">Serbia</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Turkey</td>
+	<td bgcolor="BDBDBD">Italy</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB">Communists</td>
+	<td bgcolor="BDBDBD">Arabia</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB"></td>
+	<td bgcolor="BDBDBD">Britain</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB"></td>
+	<td bgcolor="BDBDBD">Russia</td>
+	</tr>
+	<tr>
+	<td bgcolor="ABABAB"></td>
+	<td bgcolor="BDBDBD">USA</td>
+	</tr>
+</table>
+
+<br>
+<div style="text-align: center;">
+<br>==========================================================
+<br><span style="font-size:200%"><b>Units</b></span>
+<br>==========================================================
+<br>
+<br>Size=transport cost
+
+<table border="1"bgcolor="ABABAB">
+	<tr>
+	<th style="font-size:120%;000000"bgcolor="FEECE2"colspan="7">Land Units</th>
+	</tr>
+
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>size</th>
+	<th>special abilities</th>
+	</tr>
+
+	<tr bgcolor="BDBDBD">
+	<td>Infantry</td>
+	<td>1</td>
+	<td>2</td>
+	<td>1</td>
+	<td>3</td>
+	<td>2</td>
+	<td>Supportable</td>
+	</tr>
+	
+	<tr>
+	<td>Cavalry</td>
+	<td>1</td>
+	<td>1</td>
+	<td>2</td>
+	<td>4</td>
+	<td>3</td>
+	<td>Supportable, can blitz</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Field_gun</td>
+	<td>2</td>
+	<td>2</td>
+	<td>1</td>
+	<td>4</td>
+	<td>3</td>
+	<td>Supports</td>
+	</tr>
+	
+	<tr>
+	<td>Heavy_gun</td>
+	<td>2</td>
+	<td>4</td>
+	<td>1</td>
+	<td>5</td>
+	<td>4</td>
+	<td>Supports</td>
+	</tr>
+
+	<tr bgcolor="BDBDBD">	
+	<td>Bedouin</td>
+	<td>1</td>
+	<td>2</td>
+	<td>2</td>
+	<td>2</td>
+	<td>3</td>
+	<td>Arabia Only</td>
+	</tr>
+
+ 	<tr>
+	<td>Gas</td>
+	<td>4</td>
+	<td>0</td>
+	<td>3</td>
+	<td>4</td>
+	<td>3</td>
+	<td>First Strike, Suicide</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Trench</td>
+	<td>0</td>
+	<td>0</td>
+	<td>-</td>
+	<td>3</td>
+	<td>N/A</td>
+	<td>2 hit</td>
+	</tr>	
+
+ 	<tr>
+	<td>AAGun</td>
+	<td>0</td>
+	<td>1</td>
+	<td>1</td>
+	<td>5</td>
+	<td>3</td>
+	<td>1d6 vs each attacking plane</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Factory</td>
+	<td>0</td>
+	<td>0</td>
+	<td>0</td>
+	<td>20</td>
+	<td>N/A</td>
+	<td>Allows units to be placed, can be strategically bombed</td>
+	</tr>
+	
+	<tr>
+	<td>Conscript</td>
+	<td>0</td>
+	<td>1</td>
+	<td>1</td>
+	<td>2</td>
+	<td>2</td>
+	<td>Russia and Communists only, supportable</td>
+	</tr>
+		
+	<tr bgcolor="BDBDBD">
+	<td>Colonial</td>
+	<td>2</td>
+	<td>2</td>
+	<td>1</td>
+	<td>3</td>
+	<td>2</td>
+	<td>Nova Scotia, Ottawa-Montreal, Sydney-Canberra, Algiers, and Tobruk only, supportable</td>
+	</tr>
+		
+	<tr>
+	<td>Stormtruppen</td>
+	<td>2</td>
+	<td>2</td>
+	<td>1</td>
+	<td>3</td>
+	<td>2</td>
+	<td>Berlin only, supportable</td>
+	</tr>
+			
+	<tr bgcolor="BDBDBD">
+	<td>Tank</td>
+	<td>4</td>
+	<td>1</td>
+	<td>2</td>
+	<td>6</td>
+	<td>3</td>
+	<td>Supports, Blitz, attainable through tech</td>
+	</tr>
+	
+	<tr>
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>size</th>
+	<th>special abilities</th>
+	</tr>
+</table>
+<br>
+
+
+<table border="1"bgcolor="ABABAB">
+	<tr>
+	<th style="font-size:120%;000000"bgcolor="FEECE2"colspan="6">Air Units</th>
+	</tr>
+
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+
+	<tr bgcolor="BDBDBD">
+	<td>Fighter</td>
+	<td>2</td>
+	<td>3</td>
+	<td>3</td>
+	<td>9</td>
+	<td>supports</td>
+	</tr>
+	
+	<td>Zeppelin</td>
+	<td>1</td>
+	<td>2</td>
+	<td>5</td>
+	<td>16</td>
+	<td>Strategic Bomber, Supports</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Late Fighter</td>
+	<td>3</td>
+	<td>4</td>
+	<td>4</td>
+	<td>10</td>
+	<td>supports, attainable through tech</td>
+	</tr>
+
+	<tr>
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+</table>
+<br>
+
+<table border="1"bgcolor="ABABAB">
+	<tr>
+	<th style="font-size:120%;000000"bgcolor="FEECE2"colspan="6">Naval Units</th>
+	</tr>
+
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+
+ 	<tr bgcolor="BDBDBD">
+	<td>Transport</td>
+	<td>0</td>
+	<td>0</td>
+	<td>2</td>
+	<td>7</td>
+	<td>5 Transport capacity, cannot defend and cannot be taken as casualty. </td>
+	</tr>
+	
+	<tr>
+	<td>Submarine</td>
+	<td>2</td>
+	<td>1</td>
+	<td>2</td>
+	<td>7</td>
+	<td>Can submerge, first strike</td>
+	</tr>
+
+	<tr bgcolor="BDBDBD">
+	<td>Destroyer</td>
+	<td>2</td>
+	<td>2</td>
+	<td>2</td>
+	<td>9</td>
+	<td>anti-submarine</td>
+	</tr>
+	
+	<tr>
+	<td>Cruiser</td>
+	<td>3</td>
+	<td>3</td>
+	<td>2</td>
+	<td>10</td>
+	<td></td>
+	</tr>
+
+ 	<tr bgcolor="BDBDBD">
+	<td>Carrier</td>
+	<td>2</td>
+	<td>3</td>
+	<td>2</td>
+	<td>12</td>
+	<td>attainable through tech</td>
+	</tr>
+
+	<tr>
+	<td>Battlecruiser</td>
+	<td>4</td>
+	<td>4</td>
+	<td>2</td>
+	<td>16</td>
+	<td>Can Bombard</td>
+	</tr>
+	
+	<tr bgcolor="BDBDBD">
+	<td>Battleship</td>
+	<td>4</td>
+	<td>4</td>
+	<td>2</td>
+	<td>22</td>
+	<td>Can Bombard, 2 hit</td>
+	</tr>
+
+	<tr>
+	<th>Unit name</th>
+	<th>att</th>
+	<th>def</th>
+	<th>move</th>
+	<th>cost</th>
+	<th>special abilities</th>
+	</tr>
+</table>
+<br>
+
+<div style="text-align: center;">
+<br>==========================================================
+<br><span style="font-size:200%"><b>Technology</b></span>
+<br>==========================================================
+<br>
+<br>
+<br> To enable Technology, select "Tech Development" in "Game Options" prior to the beginning of the game.<br>
+
+<table border="1"bgcolor="ABABAB">
+    <tr>
+        <th style="font-size:120%;000000"bgcolor="FEECE2"colspan="3">Technology List</th>
+    </tr>
+
+    <tr>
+        <th>Category</th>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+
+    <tr bgcolor="BDBDBD">
+        <td>Economy</td>
+        <td>Science</td>
+        <td>1 free tech token per turn</td>
+    </tr>
+
+    <tr bgcolor="BDBDBD">
+        <td>Economy</td>
+        <td>Victory Bonds</td>
+        <td>2D6 extra pus per turn</td>
+    </tr>	
+
+    <tr bgcolor="BDBDBD">
+        <td>Economy</td>
+        <td>Working Women</td>
+        <td>Reduces Gas, Field, and Heavy Artillery by 0.5; Fighter by 2</td>
+    </tr>
+
+    <tr>
+        <td>Innovation</td>
+        <td>Armour</td>
+        <td>Unlocks Tank unit</td>
+    </tr>
+
+    <tr>
+        <td>Innovation</td>
+        <td>Industry</td>
+        <td>Place 2 more units in territories worth 2 or more</td>
+    </tr>
+
+    <tr>
+        <td>Innovation</td>
+        <td>Late Fighter</td>
+        <td>Unlocks Late Figher unit</td>
+    </tr>
+
+    <tr bgcolor="BDBDBD">
+        <td>Land Offense</td>
+        <td>Creeping Barage</td>
+        <td>Field Artillery attacks at 3</td>
+    </tr>
+
+    <tr bgcolor="BDBDBD">
+        <td>Land Offense</td>
+        <td>Mobile Warfare</td>
+        <td>Cavalry moves at 3</td>
+    </tr>
+
+    <tr bgcolor="BDBDBD">
+        <td>Land Offense</td>
+        <td>Mustard Gas</td>
+        <td>Gas Attacks at 5</td>
+    </tr>	
+
+    <tr>
+        <td>Land Defense</td>
+        <td>Bunkers</td>
+        <td>Trenches defend at 1</td>
+    </tr>
+
+    <tr>
+        <td>Land Defense</td>
+        <td>Propaganda</td>
+        <td>3 free Infantry (Stormtruppen) per turn on your capital</td>
+    </tr>
+
+    <tr>
+        <td>Land Defense</td>
+        <td>Railway Guns</td>
+        <td>Heavy Artillery defends at 5</td>
+    </tr>
+
+    <tr bgcolor="BDBDBD">
+        <td>Screens and Subs</td>
+        <td>Convoys</td>
+        <td>Destroyers Defend at 3, Cruisers Defend at 4</td>
+    </tr>
+
+    <tr bgcolor="BDBDBD">
+        <td>Screens and Subs</td>
+        <td>Merchant Marine</td>
+        <td>Destroyers, Cruisers, and Battlecruisers move at 3</td>
+    </tr>
+
+    <tr bgcolor="BDBDBD">
+        <td>Screens and Subs</td>
+        <td>Sub Warfare</td>
+        <td>Submarines attack at 3 & defend at 2</td>
+    </tr>
+
+    <tr>
+        <td>Capital Ships</td>
+        <td>Aircraft Carrier</td>
+        <td>Unlocks Carrier unit</td>
+    </tr>
+
+    <tr>
+        <td>Capital Ships</td>
+        <td>Dockyards</td>
+        <td>Reduce BB's and BC's by 2 pus, Reduce rest by 1 pus</td>
+    </tr>
+
+    <tr>
+        <td>Capital Ships</td>
+        <td>Fleet Action</td>
+        <td>Battlecruisers and Battleships attack at 5</td>
+    </tr>
+
+</table>
+<br>
+
+<div style="text-align: center;">
+<br>==========================================================
+<br><span style="font-size:200%"><b>Credits</b></span>
+<br>==========================================================
+<br>
+
+<br>
+<h1 style="text-align: center;font-size:120%;000000"><em>Thanks to the following contributors</em></h1>
+<br> # TripleK and Surtur for making origional Domination, from which the map is borrowed from
+<br> # Veqryn for engine support and providing examples of xml code in POS2
+<br> # Siege for relief tiles
+<br> # Cernel for flags and unit support
+<br> # RolfLarsson for maintaining the map depot and debugging
+<br> # Lalapalooza, Bdenn, Guage, Dany for playtesting
+<br>
+<br>==========================================================
+<br>
+
+<tr>
+<th style="font-size:110%;color:660000;"><br>Imbaked 2014<br></th>
+</tr>
+<br>
+<br>
+<br>
+</body>
+</html>
