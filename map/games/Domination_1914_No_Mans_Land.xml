@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Domination 1914 No Man's Land" version="1.4.1"/>
+    <info name="Domination 1914 No Man's Land" version="1.4.2"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.5"/>
     <diceSides value="6"/>
@@ -5542,7 +5542,7 @@
             <option name="when" value="after:ItalyTechActivation"/>
         </attachment>
         <attachment name="triggerAttachmentItalyT5" attachTo="Italy" javaClass="TriggerAttachment" type="player">
-            <option name="trigger" value="conditionAttachmenttankA"/>
+            <option name="trigger" value="conditionAttachmenttankI"/>
             <option name="productionRule" value="productionItaly:buytank"/>
             <option name="uses" value="1"/>
             <option name="when" value="after:ItalyTechActivation"/>
@@ -7656,7 +7656,7 @@
     <tr>
         <td>Innovation</td>
         <td>Late Fighter</td>
-        <td>Unlocks Late Figher unit</td>
+        <td>Unlocks Late Fighter unit</td>
     </tr>
 
     <tr bgcolor="BDBDBD">
